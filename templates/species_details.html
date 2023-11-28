@@ -1,0 +1,243 @@
+{% extends "layout.html"%}
+{% block content %}
+<style>
+.enlarged-image-container {
+  display: none;
+}
+
+
+.image {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Initial shadow */  
+}
+
+.image:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  cursor: pointer;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+}
+
+.tabs li {
+    margin-right: 10px;
+}
+
+.tabs li.is-active a {
+    color: #00d1b2;
+}
+
+
+.card {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Initial shadow */
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  cursor: pointer;
+}
+
+
+</style>
+
+
+<section class="hero is-fullheight">
+
+  <div class="hero-body">
+
+      <div class="enlarged-image-container modal" style="display: none">
+        <div class="modal-background">
+          <div class="modal-content">
+            <figure class="image is-2by3">
+              <img class="enlarged-image" src="">
+            </figure>
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>    
+      
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-half">
+            <h1 class="title my-1">{{data.species}}</h1>
+            <p class="heading">Species</p><br>
+
+            <p class="title is-4 my-1">{{data.family}}</p>
+            <p class="heading">Family</p><br>
+
+            <p class="title is-4 my-1">{{data.genus}}</p>
+            <p class="heading">Genus</p><br>
+
+            <a class="button is-primary" href="https://www.google.com/search?q={{data.species|urlencode}}"; target = "_blank">Google search</a>
+          </div>
+        
+
+        <!-- tab panel -->
+        <div class="column is-half">
+          <div class="tabs is-boxed is-left" style="border-bottom: 1px solid rgb(219, 219, 219)" id="myTabs">
+            <ul>
+              <li class="is-active">
+                <a onclick="changeTab('Images')">
+                  <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                  <span>Images</span>
+                </a>
+              </li>
+              <li>
+                <a onclick="changeTab('Family')">
+                  <span class="icon is-small"><i class="fa-brands fa-pagelines" aria-hidden="true"></i></span>
+                  <span>Same Family</span>
+                </a>
+              </li>
+              <li>
+                <a onclick="changeTab('Genus')">
+                  <span class="icon is-small"><i class="fa-solid fa-leaf" aria-hidden="true"></i></span>
+                  <span>Same Genus</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        <!-- </div> -->
+        
+
+        <!-- tab 0 -->
+        <div class="tab-content" id="ImagesContent">
+          <div class="columns is-multiline is-mobile" id="image-gallery"></div>
+        </div>
+
+
+          <!-- tab 1 -->
+          <div class="tab-content" id="FamilyContent">
+
+          <div class="columns is-multiline">
+            {% for folder, species, genus, family, image_path in family_data %}
+            <div class="column is-4">
+               <div class="card">
+                  <a href="{% url 'species_details' folder %}"> 
+                    <div class="card-image">
+                        <figure class="is-2by3">
+                          <img src="{{ image_path }}">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                      <p class="title is-5">{{species}}</p>
+                      <p class="title is-6 has-text-primary">{{family}}</p>
+                      <p class="subtitle is-6">{{genus}}</p>
+                    </div>
+                  </a>
+                </div> 
+              </div>
+              {% endfor %}
+          </div>
+        </div>
+
+        <!-- tab 2 -->
+        <div class="tab-content" id="GenusContent"> 
+
+          <div class="columns is-multiline">
+          {% for folder, species, genus, family, image_path in genus_data %}
+          <div class="column is-4">
+             <div class="card">
+              <a href="{% url 'species_details' folder %}">
+                <div class="card-image">
+                    <figure class="is-2by3">
+                      <img src="{{ image_path }}">
+                    </figure>
+                </div>
+                <div class="card-content">
+                  <p class="title is-5">{{species}}</p>
+                  <p class="title is-6">{{family}}</p>
+                  <p class="subtitle is-6 has-text-primary">{{genus}}</p>
+                </div>
+                </a>
+              </div> 
+            </div>
+            {% endfor %}
+          </div>       
+        </div>
+        
+
+        </div>
+      </div>
+            
+
+
+
+
+        
+
+    </div>
+
+      <!-- Hero footer -->
+      <div class="hero-foot">
+      </div>
+
+  </section>
+
+<script>
+const imageGallery = document.getElementById("image-gallery");
+var enlargedImage = document.querySelector('.enlarged-image');
+var data = {{ data|safe }};
+data.images.forEach(imageData => {
+  const divElement = document.createElement('div')
+  const imageElement = document.createElement('img');
+  imageElement.className = 'image'
+  divElement.className = 'column is-one-third';
+  imageElement.src = imageData;
+  divElement.appendChild(imageElement)
+  imageGallery.appendChild(divElement);
+
+  // Add a click event listener to each image in the current gallery
+  imageElement.addEventListener('click', function () {
+    enlargedImage.src = imageData;
+    document.querySelector('.enlarged-image-container').style.display = 'block';
+    document.querySelector('.enlarged-image-container').classList.add('is-active');
+
+  });
+}); 
+
+// Enable clickable images
+// Add a click event listener to the enlarged image container to close it when clicked
+document.querySelector('.enlarged-image-container').addEventListener('click', function () {
+  this.style.display = 'none';
+  this.classList.remove('is-active');
+});
+
+
+
+
+
+// tab function
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize the default tab (Images)
+    changeTab('Images');
+  });
+
+  function changeTab(tabName) {
+    // Hide all tab contents
+    const tabContents = document.getElementsByClassName('tab-content');
+    for (const content of tabContents) {
+      content.style.display = 'none';
+    }
+
+    // Deactivate all tabs
+    const tabs = document.getElementById('myTabs').querySelectorAll('.is-active');
+    tabs.forEach(tab => tab.classList.remove('is-active'));
+
+    // Activate the clicked tab
+    const clickedTab = document.querySelector(`[onclick="changeTab('${tabName}')"]`).parentNode;
+    clickedTab.classList.add('is-active');
+
+    // Show the corresponding tab content
+    const tabContent = document.getElementById(`${tabName}Content`);
+    tabContent.style.display = 'block';
+  }
+
+
+
+
+</script>
+
+{% endblock %}

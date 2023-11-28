@@ -1,0 +1,56 @@
+{% extends "layout.html"%}
+{% block content %}
+<style type="text/css">
+.custom-link {
+	pointer:cursor;
+	text-decoration: underline;
+}
+.custom-link:hover{
+	color: #00d1b2;
+}
+</style>
+
+<section class="hero is-fullheight">
+  <div class="hero-body">
+		<div class="container">
+  		<h1 class="title">About</h1>
+      	<div class="columns is-multiline">
+
+      		<div class="column is-half has-text-justified is-narrow-mobile">
+      			<div>
+		  				<p>
+		  					Motivated by the challenge of data-deficient tropical plant species identification, herbaLook is the result of a cross-domain plant identification research. It involves using dried plant specimens (herbarium images) to identify plant photographs in the field with triplet networks.<br><br>
+		  					The proposed triplet network, namely, the Herbarium-Field Triplet Loss (HFTL) Network, is constructed with two Convolutional Neural Networks that map the herbarium and field domains together.<br><br>
+								The aim of herbaLook is to demonstrate the trained HFTL model as well as its practicality for taxonomists and fellow naturalists. In addition, it is also part of the fulfilment of the requirements for
+								<a class="custom-link" href="https://www.linkedin.com/in/sophiadouglas">the author's</a> Master Research Degree. More info about the research work can be found <a class="custom-link" href="https://doi.org/10.1007/s00521-022-07951-6">here</a>.<br><br>
+								This application demonstrates the classification of 997 plant species which are listed in the 
+								<a class="custom-link" href="{% url 'gallery' %}"> Gallery</a> and <a class="custom-link" href="{% url 'dataset_info' %}"> Dataset</a> pages.
+								<br><br>
+							</p>
+						</div>
+	  			</div>
+
+
+			  	<div class="column is-half">
+						<figure class="image">
+							{% load static %}
+							<img src="{% static 'images/HFTL_network.png' %}" style="object-fit:scale-down;">
+						</figure>      		
+					</div>
+
+					<div class="column is-12">
+						<h3 class="subtitle is-4">Acknowledgements</h3>
+							<p>
+								This research is made possible with the support from Swinburne University of Technology Sarawak Campus and NEUON AI Sdn. Bhd., Malaysia.<br><br>
+								This application uses the dataset (herbarium and field images) from <a class="custom-link" href="https://www.imageclef.org/PlantCLEF2021">PlantCLEF 2021</a> and it can be acquired at <a class="custom-link" href="https://www.aicrowd.com/challenges/lifeclef-2021-plant">AIcrowd</a>.<br><br>							
+							</p>
+					</div>					
+
+				</div>
+  	</div>
+  </div>
+</section>
+
+
+
+{% endblock %}

@@ -1,0 +1,495 @@
+{% extends "layout.html"%}
+{% block content %}
+<style>
+.enlarged-image-container {
+  display: none;
+}
+
+.prediction-image {
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.prediction-image:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+}
+
+.thumbnail {
+    cursor: pointer;
+    filter: grayscale(90%);
+    object-fit:cover; 
+    max-height:100px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.thumbnail.selected {
+    filter: none;
+    border: 1px solid #00d1b2;
+}
+
+.thumbnail:hover  {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  cursor: pointer;
+}
+
+.custom-link {
+  pointer:cursor;
+}
+.custom-link:hover{
+  color: #00d1b2;
+}
+
+</style>
+
+<section class="hero is-fullheight">
+  
+  <div class="hero-body">
+      <div class="enlarged-image-container modal" style="display: none">
+        <div class="modal-background">
+          <div class="modal-content">
+            <figure class="image is-2by3">
+              <img class="enlarged-image" src="">
+            </figure>
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+      
+      <div class="container">        
+        <div class="columns">
+          <div class="column is-half" >
+
+            <div id="plant_samples_gallery">
+              <div class="card-content">
+                <h1 class="subtitle is-5">Sample images</h1>
+                <div class="columns is-mobile is-multiline">
+                  {% load static %}
+                  <img class="column thumbnail is-2 is-one-fifth-tablet" onclick="selectImage(this)" src="{% static 'images/plant_samples/145020_88762.jpg' %}">
+                  <img class="column thumbnail is-2 is-one-fifth-tablet" onclick="selectImage(this)" src="{% static 'images/plant_samples/149264_243677.jpg' %}">
+                  <img class="column thumbnail is-2 is-one-fifth-tablet" onclick="selectImage(this)" src="{% static 'images/plant_samples/190183_173603.jpg' %}">
+                  <img class="column thumbnail is-2 is-one-fifth-tablet" onclick="selectImage(this)" src="{% static 'images/plant_samples/15089_252764.jpg' %}">
+                  <img class="column thumbnail is-2 is-one-fifth-tablet" onclick="selectImage(this)" src="{% static 'images/plant_samples/127242_271434.jpg' %}">
+                  <img class="column thumbnail is-2 is-one-fifth-tablet" onclick="selectImage(this)" src="{% static 'images/plant_samples/200087_111247.jpg' %}">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card" >            
+                <!--- Upload image  --->            
+                <form method="POST" enctype="multipart/form-data" id="image-form"> 
+                  {% csrf_token %}      
+                  <div class="card-image">
+                    <figure class="image">
+                      {% load static %}
+                      <img src="{% static 'images/undraw_Image__folder_re_hgp7.png' %}" id="uploaded-image" style="object-fit:scale-down; max-height:300px;">
+                    </figure>
+                  </div>
+
+              <footer class="card-footer" style="background-color:white;">
+                <div id="upload-button" class="file card-footer-item">           
+                    <label class="file-label is-fullwidth">
+                    <!-- Hidden input for selected sample image -->
+                    <input type="hidden" id="sample-image-url" value="">
+                    <!-- Input for the uploaded image -->               
+                    <input class="file-input" type="file" name="image" id="image-upload" accept="image/*">
+                    <span class="file-cta">
+                      <span class="file-icon">
+                          <i class="fas fa-upload"></i>
+                      </span>
+                      <span class="file-label">
+                          Upload image
+                      </span>
+                    </span>
+                    </label>
+                </div>
+
+                <div class="card-footer-item">
+                  <div class="select is-fullwidth is-primary">
+                    <select id="select-topN" disabled>
+                      <option value="5">Top-5 results</option>
+                      <option value="10">Top-10 results</option>
+                      <option value="15">Top-15 results</option>
+                      <option value="20">Top-20 results</option>
+                      <option value="25">Top-25 results</option>
+                      <option value="50">Top-50 results</option>
+                    </select>
+                  </div>
+                </div>
+
+                
+                <div class="card-footer-item">           
+                    <button class="button is-fullwidth is-primary" type="button" id="predict-button" disabled>Predict</button>
+                    <button class="button is-fullwidth is-primary is-loading" type="submit" id="loading-button" style="display:none;"></button>
+                </div>
+
+
+              </footer>
+              </form>
+            </div>
+
+
+
+            <div class="card mt-4 pb-5 box" id="target_cam_container" style="display:none">
+                <h1 class="title is-5">Image Class Activation Map (CAM) Analysis</h1>
+                <h1 class="subtitle is-6">CAM visualisations are used to help understand and interpret the AI model's prediction. They highlight the particular region in the image that contributes the most to the model.</h1>
+                <figure class="image">
+                  <img src="" id="target_cam_results">
+                </figure>
+            </div>
+        </div>
+
+
+
+
+
+
+
+          <div class="column is-half" id="introduction">
+            <div class="container has-text-centered" style="margin-top:15vh; margin-bottom:15vh;">
+              {% load static %}
+              <img src="{% static 'images/undraw_Visionary_technology_re_jfp7.png' %}" style="max-height:300px" /> 
+              <!-- <h1 class="title is-3">herbaLook</h1> -->
+              <h1 class="subtitle is-5"> AI plant species prediction from herbarium specimens</h1>
+              <h1 class="subtitle is-6" id="instruction">Upload an image or click on a sample image to get started<br>
+                See <a class="custom-link" href="{% url 'dataset_info' %}"> Dataset</a> for the trained species list
+              </h1>
+
+            </div>
+
+          </div>
+
+
+          <div class="column is-half" style="display:None" id="results">
+
+              <div class="block" id="prediction-list">
+                <div class="card">
+                </div>
+              </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+  </section>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  
+$(document).ready(function () {
+
+  var disableSelect = document.getElementById('select-topN');
+  var disablePredict = document.getElementById('predict-button');
+
+  // Get all thumbnails
+  var thumbnails = document.querySelectorAll('.thumbnail');
+
+  // Handle image upload and preview
+  $("#image-upload").change(function () {
+      const fileInput = document.getElementById('image-upload');
+      const fileDisplay = document.getElementById('uploaded-image');
+      fileDisplay.src = "{% static 'images/undraw_Image__folder_re_hgp7.png' %}";
+
+      if (fileInput.files && fileInput.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function(event) {
+          fileDisplay.src = event.target.result;
+          disableSelect.disabled = false;
+          disablePredict.disabled = false
+
+          // Deselect all thumbnails
+          thumbnails.forEach(function (thumb) {
+          thumb.classList.remove('selected');
+          });          
+        };
+        reader.readAsDataURL(fileInput.files[0]);
+      }
+
+      disableSelect.disabled = true;
+      disablePredict.disabled = true;
+      $("#target_cam_container").hide();
+      $("#results").hide();
+      $("#introduction").show();
+      
+    });
+
+      
+  // Handle predict button click
+  $("#predict-button").click(async function () {
+
+    var form = new FormData(document.getElementById('image-form'));
+    var sampleDataInput = document.getElementById('sample-image-url');  
+    var fileInput = document.getElementById('image-upload');
+
+
+    async function fetchDataAndAppendToForm() {
+      // Check if the file input has a selected file
+      if (fileInput.files && fileInput.files[0]) {
+        // Use the file input value if a file is selected
+        form.append('image', fileInput.files[0]);
+      } 
+      else {
+        if (sampleDataInput.value.trim() !== '') {
+
+          try {
+            const response = await fetch(sampleDataInput.value);
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            
+            const blob = await response.blob();
+            var blobURL = URL.createObjectURL(blob);
+
+            // Create a File from the blob
+            var sampleInputFile = new File([blob], 'sample_image.jpg', { type: blob.type });
+
+            // Use the hidden input value (image data URL) if no file is selected
+            form.append('image', sampleInputFile);
+
+            // Log the form content after appending the image file
+            // console.log(form.get('image'));
+          } catch (error) {
+              console.error('Error fetching image:', error);
+            }
+        }
+      }
+
+    }
+
+    // Call the asynchronous function
+    await fetchDataAndAppendToForm();
+  
+
+    // Display loading button
+    var predictButton = $("#predict-button");
+    var loadingButton = $("#loading-button");
+    var instructionDiv = document.getElementById("instruction");
+    instructionDiv.textContent = "Processing...";
+
+    predictButton.hide()
+    loadingButton.show()
+
+    var globalTimeout = 240000;  // 4 minutes
+    // Perform image preprocessing and classification
+    $.ajax({
+        type: "POST",
+        url: "{% url 'classify_image' %}",  // Define the URL of your Django view
+        data: form,
+        contentType: false,
+        processData: false,
+        timeout: globalTimeout,
+         beforeSend: function(xhr, settings) {
+           // Dynamically set the timeout before each request
+           settings.timeout = globalTimeout;
+          },
+        success: function (data) {
+          displayPredictions(data);                             
+        }
+    });
+
+    // Enable clickable images
+    // Add a click event listener to the enlarged image container to close it when clicked
+    document.querySelector('.enlarged-image-container').addEventListener('click', function () {
+      this.style.display = 'none';
+      this.classList.remove('is-active');
+    });
+
+  })
+
+});
+
+
+function displayPredictions(data) {
+  // Display loading button
+  var predictButton = $("#predict-button");
+  var loadingButton = $("#loading-button");
+  var instructionDiv = document.getElementById("instruction");
+
+  console.log("Predictions received...")
+  var selectElement = document.getElementById("select-topN");
+  const topN = parseInt(selectElement.value); // Number of top predictions to display
+  const container = document.getElementById('prediction-list');
+  container.innerHTML = ''; // Clear the existing content
+  var enlargedImage = document.querySelector('.enlarged-image');
+
+  console.log("Displaying results...")
+  // Loop through the top-N predictions
+  for (let i = 0; i < topN; i++) {
+    const folder_name = data.predicted_folders[i];
+    const species = data.predicted_species[i];
+    const score = data.predicted_prob[i];
+    const imagesList = data.predicted_images[i];
+
+
+    // Create a new card item for each prediction
+    const cardItem = document.createElement('div');
+    cardItem.className = 'card';
+    const additionalClass = 'mb-4'; // New class name
+    cardItem.className += ' ' + additionalClass;
+
+    // Create a new card content item for each prediction
+    const cardContentItem = document.createElement('div');
+    cardContentItem.className = 'card-content';                    
+
+
+    // Create an element for the species name
+    const speciesElement = document.createElement('div');
+    speciesElement.className = 'title';
+    speciesElement.textContent = "Top-" + (i+1) + " result: " + species;
+    const speciesElementAddClass = 'is-5'
+    speciesElement.className += ' ' + speciesElementAddClass;
+
+    // Create an element for the species name
+    const scoreElement = document.createElement('div');
+    scoreElement.className = 'subtitle';
+    scoreElement.textContent = "Similarity score: " + score;
+    const scoreElementAddClass = 'is-6'                 
+    scoreElement.className += ' ' + scoreElementAddClass;
+
+    // Create an element for the progress bar
+    const progressBar = document.createElement('progress');
+    progressBar.className = 'progress is-primary progress-bar is-small';
+    progressBar.value = score;
+    progressBar.max = 1;
+
+    // Create an element for the reference images
+    const galleryDiv = document.createElement('div');
+    galleryDiv.className = 'columns is-mobile';
+
+
+    // Compile reference images
+    imagesList.forEach(function(imageData) {
+      var galleryItem = document.createElement('div');
+      galleryItem.className = 'column is-one-fifth';
+      const galleryItemAddClass = 'prediction-gallery'
+      galleryItem.className += ' ' + galleryItemAddClass;
+      var imageElement = document.createElement('img');
+      imageElement.className = 'prediction-image';
+      imageElement.src = imageData;
+
+      // Add a click event listener to each image in the current gallery
+      imageElement.addEventListener('click', function (){
+        enlargedImage.src = imageData;
+        document.querySelector('.enlarged-image-container').style.display = 'block';
+        document.querySelector('.enlarged-image-container').classList.add('is-active');
+      });
+      
+      galleryItem.appendChild(imageElement);
+      galleryDiv.appendChild(galleryItem);
+
+    });
+
+    // Google search div
+    const googleButton = document.createElement('a');
+    googleButton.className = "has-text-grey";
+    googleButton.href = "https://www.google.com/search?q="+ species;
+    googleButton.target = "_blank";
+    googleButton.textContent = "Google search"; 
+    googleButton.style.marginRight = "1rem";  
+
+    // Learn more div
+    const learnMoreDiv = document.createElement('div');
+    learnMoreDiv.style.textAlign = 'right';
+    const learnMoreButton = document.createElement('a');
+    learnMoreButton.className = "has-text-primary";
+    learnMoreButton.href = "/species/" + folder_name;
+    learnMoreButton.target = "_blank";
+    learnMoreButton.textContent = "Details";                
+
+    // Append all elements to the list item
+    cardContentItem.appendChild(speciesElement);
+    cardContentItem.appendChild(scoreElement);
+    cardContentItem.appendChild(progressBar);
+    cardContentItem.appendChild(galleryDiv);
+    learnMoreDiv.appendChild(googleButton);
+    learnMoreDiv.appendChild(learnMoreButton);
+    cardContentItem.appendChild(learnMoreDiv);
+    cardItem.appendChild(cardContentItem);
+
+    // Append the list item to the container
+    container.appendChild(cardItem);
+
+  }
+
+  console.log("Results displayed...")
+
+  // Reset the instruction
+  var instructionDiv = document.getElementById("instruction");
+  instructionDiv.textContent = "Upload an image or click on a sample image to get started";
+
+  console.log("Getting CAM image...")
+  // Show the results container
+  $("#target_cam_results").attr("src", "data:image/png;base64," + data.image_cam);
+  $("#target_cam_results").css({
+        "object-fit": "contain",
+        "max-height": "300px"
+  });
+
+  console.log("CAM image shown...")
+  $("#results").show();
+  loadingButton.hide()
+  predictButton.show()
+  $("#introduction").hide();
+  $("#target_cam_container").show();   
+
+
+}
+
+
+function selectImage(thumbnail) {
+  // Get disabled buttons
+  var disableSelect = document.getElementById('select-topN');
+  var disablePredict = document.getElementById('predict-button'); 
+
+  // Get file input
+  var fileInput = document.getElementById('image-upload');
+   
+  // Get all thumbnails
+  var thumbnails = document.querySelectorAll('.thumbnail');
+
+  // Deselect all thumbnails
+  thumbnails.forEach(function (thumb) {
+      thumb.classList.remove('selected');
+  });
+
+  // Select the clicked thumbnail
+  thumbnail.classList.add('selected');
+
+  // Set the clicked image as the main image
+  var mainSampleImage = document.getElementById('uploaded-image');
+  mainSampleImage.src = thumbnail.src;
+
+  var sampleDataInput = document.getElementById('sample-image-url');
+  sampleDataInput.value = mainSampleImage.src;
+
+  // Reset file input 
+  fileInput.value = '';
+
+  disableSelect.disabled = false;
+  disablePredict.disabled = false
+  $("#target_cam_container").hide();
+  $("#results").hide();
+  $("#introduction").show();  
+  
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+{% endblock %}

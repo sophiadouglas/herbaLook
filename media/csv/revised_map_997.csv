@@ -1,0 +1,998 @@
+new label;species label;genus label;family label;species;genus;family
+0;0;0;0;Unxia camphorata L.f.;Unxia;Compositae
+1;1;1;1;Connarus fasciculatus (DC.) Planch.;Connarus;Connaraceae
+2;2;2;2;Jacquemontia tamnifolia (L.) Griseb.;Jacquemontia;Convolvulaceae
+3;3;3;2;Maripa glabra Choisy;Maripa;Convolvulaceae
+4;4;3;2;Maripa violacea (Aubl.) Ooststr. ex Lanj. & Uittien;Maripa;Convolvulaceae
+5;5;4;2;Merremia umbellata (L.) Hallier f.;Merremia;Convolvulaceae
+6;6;5;3;Costus arabicus L.;Costus;Costaceae
+7;7;5;3;Costus claviger Benoist;Costus;Costaceae
+8;8;5;3;Costus erythrothyrsus Loes.;Costus;Costaceae
+9;9;5;3;Costus scaber Ruiz & Pav.;Costus;Costaceae
+10;10;5;3;Costus spiralis (Jacq.) Roscoe;Costus;Costaceae
+11;11;6;4;Bryophyllum pinnatum (Lam.) Oken;Bryophyllum;Crassulaceae
+12;12;7;5;Gurania reticulata Cogn.;Gurania;Cucurbitaceae
+13;13;8;5;Melothria pendula L.;Melothria;Cucurbitaceae
+14;14;9;6;Cyathea microdonta (Desv.) Domin;Cyathea;Cyatheaceae
+15;15;9;6;Cyathea pungens (Willd.) Domin;Cyathea;Cyatheaceae
+16;16;9;6;Cyathea surinamensis (Miq.) Domin;Cyathea;Cyatheaceae
+17;17;10;7;Evodianthus funifer (Poit.) Lindm.;Evodianthus;Cyclanthaceae
+18;18;11;8;Hymenocallis tubiflora Salisb.;Hymenocallis;Amaryllidaceae
+19;19;12;9;Pteridium arachnoideum (Kaulf.) Maxon;Pteridium;Dennstaedtiaceae
+20;20;13;10;Tapura guianensis Aubl.;Tapura;Dichapetalaceae
+21;21;14;11;Davilla kunthii A.St.-Hil.;Davilla;Dilleniaceae
+22;22;15;12;Cyclodium meniscioides (Willd.) C. Presl;Cyclodium;Dryopteridaceae
+23;23;16;12;Olfersia cervina (L.) Kunze;Olfersia;Dryopteridaceae
+24;24;17;12;Polybotrya caudata Kunze;Polybotrya;Dryopteridaceae
+25;25;17;12;Polybotrya osmundacea Humb. & Bonpl. ex Willd.;Polybotrya;Dryopteridaceae
+26;26;18;13;Diospyros capreifolia Mart. ex Hiern;Diospyros;Ebenaceae
+27;27;18;13;Diospyros carbonaria Benoist;Diospyros;Ebenaceae
+28;28;18;13;Diospyros cayennensis A.DC.;Diospyros;Ebenaceae
+29;29;18;13;Diospyros dichroa Sandwith;Diospyros;Ebenaceae
+30;30;18;13;Diospyros discolor Willd.;Diospyros;Ebenaceae
+31;31;18;13;Diospyros lissocarpoides Sandwith;Diospyros;Ebenaceae
+32;32;18;13;Diospyros matheriana A.C.Sm.;Diospyros;Ebenaceae
+33;33;18;13;Diospyros sericea A.DC.;Diospyros;Ebenaceae
+34;34;18;13;Diospyros tetrandra Hiern;Diospyros;Ebenaceae
+35;35;18;13;Diospyros vestita Benoist;Diospyros;Ebenaceae
+36;36;19;14;Sloanea eichleri K.Schum.;Sloanea;Elaeocarpaceae
+37;37;19;14;Sloanea grandiflora Sm.;Sloanea;Elaeocarpaceae
+38;38;19;14;Sloanea guianensis (Aubl.) Benth.;Sloanea;Elaeocarpaceae
+39;39;19;14;Sloanea latifolia (Rich.) K.Schum.;Sloanea;Elaeocarpaceae
+40;40;20;15;Anacardium occidentale L.;Anacardium;Anacardiaceae
+41;41;21;16;Cavendishia callista Donn.Sm.;Cavendishia;Ericaceae
+42;42;22;15;Mangifera indica L.;Mangifera;Anacardiaceae
+43;43;23;16;Sphyrospermum cordifolium Benth.;Sphyrospermum;Ericaceae
+44;44;24;17;Syngonanthus caulescens (Poir.) Ruhland;Syngonanthus;Eriocaulaceae
+45;45;25;17;Tonina fluviatilis Aubl.;Tonina;Eriocaulaceae
+46;46;26;18;Erythroxylum amazonicum Peyr.;Erythroxylum;Erythroxylaceae
+47;47;26;18;Erythroxylum fimbriatum Peyr.;Erythroxylum;Erythroxylaceae
+48;48;26;18;Erythroxylum macrophyllum Cav.;Erythroxylum;Erythroxylaceae
+49;49;26;18;Erythroxylum squamatum Sw.;Erythroxylum;Erythroxylaceae
+50;50;27;19;Conceveiba martiana Baill.;Conceveiba;Euphorbiaceae
+51;51;28;15;Spondias mombin L.;Spondias;Anacardiaceae
+52;52;29;15;Tapirira guianensis Aubl.;Tapirira;Anacardiaceae
+53;53;29;15;Tapirira obtusa (Benth.) J.D.Mitch.;Tapirira;Anacardiaceae
+54;54;30;15;Thyrsodium guianense Sagot ex Marchand;Thyrsodium;Anacardiaceae
+55;55;31;19;Croton matourensis Aubl.;Croton;Euphorbiaceae
+56;56;30;15;Thyrsodium spruceanum Benth.;Thyrsodium;Anacardiaceae
+57;57;31;19;Croton nuntians Croizat;Croton;Euphorbiaceae
+58;58;31;19;Croton schiedeanus Schltdl.;Croton;Euphorbiaceae
+59;59;32;19;Dalechampia tiliifolia Lam.;Dalechampia;Euphorbiaceae
+60;60;33;19;Euphorbia cotinifolia L.;Euphorbia;Euphorbiaceae
+61;61;33;19;Euphorbia heterophylla L.;Euphorbia;Euphorbiaceae
+62;62;33;19;Euphorbia hyssopifolia L.;Euphorbia;Euphorbiaceae
+63;63;33;19;Euphorbia prostrata Aiton;Euphorbia;Euphorbiaceae
+64;64;33;19;Euphorbia thymifolia L.;Euphorbia;Euphorbiaceae
+65;65;33;19;Euphorbia tithymaloides L.;Euphorbia;Euphorbiaceae
+66;66;34;19;Glycydendron amazonicum Ducke;Glycydendron;Euphorbiaceae
+67;67;35;20;Anaxagorea dolichocarpa Sprague & Sandwith;Anaxagorea;Annonaceae
+68;68;36;19;Hura crepitans L.;Hura;Euphorbiaceae
+69;69;37;19;Jatropha curcas L.;Jatropha;Euphorbiaceae
+70;70;37;19;Jatropha gossypiifolia L.;Jatropha;Euphorbiaceae
+71;71;38;19;Mabea subsessilis Pax & K.Hoffm.;Mabea;Euphorbiaceae
+72;72;39;20;Annona ambotay Aubl.;Annona;Annonaceae
+73;73;40;19;Manihot baccata Allem;Manihot;Euphorbiaceae
+74;74;39;20;Annona foetida Mart.;Annona;Annonaceae
+75;75;41;19;Maprounea guianensis Aubl.;Maprounea;Euphorbiaceae
+76;76;39;20;Annona glabra L.;Annona;Annonaceae
+77;77;39;20;Annona haematantha Miq.;Annona;Annonaceae
+78;78;42;19;Omphalea diandra L.;Omphalea;Euphorbiaceae
+79;79;43;19;Ricinus communis L.;Ricinus;Euphorbiaceae
+80;80;44;19;Sagotia racemosa Baill.;Sagotia;Euphorbiaceae
+81;81;45;19;Sandwithia guyanensis Lanj.;Sandwithia;Euphorbiaceae
+82;82;46;19;Sapium glandulosum (L.) Morong;Sapium;Euphorbiaceae
+83;83;46;19;Sapium paucinervium Hemsl.;Sapium;Euphorbiaceae
+84;84;39;20;Annona muricata L.;Annona;Annonaceae
+85;85;39;20;Annona neoelliptica H.Rainer & Maas;Annona;Annonaceae
+86;86;39;20;Annona paludosa Aubl.;Annona;Annonaceae
+87;87;39;20;Annona prevostiae H.Rainer;Annona;Annonaceae
+88;88;39;20;Annona sericea Dunal;Annona;Annonaceae
+89;89;47;21;Chelonanthus alatus (Aubl.) Pulle;Chelonanthus;Gentianaceae
+90;90;48;20;Cremastosperma brevipes (DC. ex Dunal) R.E.Fr.;Cremastosperma;Annonaceae
+91;91;49;20;Cymbopetalum brasiliense (Vell.) Benth. ex Baill.;Cymbopetalum;Annonaceae
+92;92;50;21;Potalia amara Aubl.;Potalia;Gentianaceae
+93;93;51;21;Tachia guianensis Aubl.;Tachia;Gentianaceae
+94;94;52;21;Voyria caerulea Aubl.;Voyria;Gentianaceae
+95;95;52;21;Voyria rosea Aubl.;Voyria;Gentianaceae
+96;96;53;20;Duguetia calycina Benoist;Duguetia;Annonaceae
+97;97;53;20;Duguetia eximia Diels;Duguetia;Annonaceae
+98;98;53;20;Duguetia inconspicua Sagot;Duguetia;Annonaceae
+99;99;54;22;Chrysothemis pulchella (Donn ex Sims) Decne.;Chrysothemis;Gesneriaceae
+100;100;53;20;Duguetia surinamensis R.E.Fr.;Duguetia;Annonaceae
+101;101;53;20;Duguetia yeshidan Sandwith;Duguetia;Annonaceae
+102;102;55;20;Ephedranthus guianensis R.E.Fr.;Ephedranthus;Annonaceae
+103;103;56;22;Lembocarpus amoenus Leeuwenb.;Lembocarpus;Gesneriaceae
+104;104;57;20;Fusaea longifolia (Aubl.) Saff.;Fusaea;Annonaceae
+105;105;58;22;Sinningia incarnata (Aubl.) D.L.Denham;Sinningia;Gesneriaceae
+106;106;59;23;Dicranopteris flexuosa (Schrad.) Underw.;Dicranopteris;Gleicheniaceae
+107;107;59;23;Dicranopteris pectinata (Willd.) Underw.;Dicranopteris;Gleicheniaceae
+108;108;60;24;Gnetum urens (Aubl.) Blume;Gnetum;Gnetaceae
+109;109;61;25;Goupia glabra Aubl.;Goupia;Goupiaceae
+110;110;62;26;Heliconia chartacea Lane ex Barreiros;Heliconia;Heliconiaceae
+111;111;62;26;Heliconia densiflora Verl.;Heliconia;Heliconiaceae
+112;112;62;26;Heliconia hirsuta L.f.;Heliconia;Heliconiaceae
+113;113;62;26;Heliconia pendula Wawra;Heliconia;Heliconiaceae
+114;114;62;26;Heliconia psittacorum L.f.;Heliconia;Heliconiaceae
+115;115;62;26;Heliconia richardiana Miq.;Heliconia;Heliconiaceae
+116;116;63;27;Hernandia guianensis Aubl.;Hernandia;Hernandiaceae
+117;117;64;27;Sparattanthelium uncigerum (Meisn.) Kubitzki;Sparattanthelium;Hernandiaceae
+118;118;65;20;Guatteria guianensis (Aubl.) R.E.Fr.;Guatteria;Annonaceae
+119;119;65;20;Guatteria intermedia Scharf;Guatteria;Annonaceae
+120;120;65;20;Guatteria liesneri D.M.Johnson & N.A.Murray;Guatteria;Annonaceae
+121;121;66;28;Hymenophyllum decurrens (Jacq.) Sw.;Hymenophyllum;Hymenophyllaceae
+122;122;66;28;Hymenophyllum hirsutum (L.) Sw.;Hymenophyllum;Hymenophyllaceae
+123;123;65;20;Guatteria ouregou (Aubl.) Dunal;Guatteria;Annonaceae
+124;124;65;20;Guatteria pannosa Scharf & Maas;Guatteria;Annonaceae
+125;125;67;28;Trichomanes ankersii C. Parker ex Hook. & Grev.;Trichomanes;Hymenophyllaceae
+126;126;67;28;Trichomanes arbuscula Desv.;Trichomanes;Hymenophyllaceae
+127;127;67;28;Trichomanes crispum L.;Trichomanes;Hymenophyllaceae
+128;128;67;28;Trichomanes diversifrons (Bory) Mett. ex Sadeb.;Trichomanes;Hymenophyllaceae
+129;129;67;28;Trichomanes elegans Rich.;Trichomanes;Hymenophyllaceae
+130;130;67;28;Trichomanes krausii Hook. & Grev.;Trichomanes;Hymenophyllaceae
+131;131;67;28;Trichomanes pedicellatum Desv.;Trichomanes;Hymenophyllaceae
+132;132;67;28;Trichomanes pinnatum Hedw.;Trichomanes;Hymenophyllaceae
+133;133;67;28;Trichomanes punctatum Poir.;Trichomanes;Hymenophyllaceae
+134;134;67;28;Trichomanes trollii Bergdolt;Trichomanes;Hymenophyllaceae
+135;135;67;28;Trichomanes vittaria DC. ex Poir.;Trichomanes;Hymenophyllaceae
+136;136;65;20;Guatteria scandens Ducke;Guatteria;Annonaceae
+137;137;65;20;Guatteria schomburgkiana Mart.;Guatteria;Annonaceae
+138;138;68;29;Vismia cayennensis (Jacq.) Pers.;Vismia;Hypericaceae
+139;139;68;29;Vismia latifolia (Aubl.) Choisy;Vismia;Hypericaceae
+140;140;68;29;Vismia ramuliflora Miq.;Vismia;Hypericaceae
+141;141;68;29;Vismia sessilifolia (Aubl.) Choisy;Vismia;Hypericaceae
+142;142;69;30;Didymochlaena truncatula (Sw.) J. Sm.;Didymochlaena;Hypodematiaceae
+143;143;70;31;Emmotum fagifolium Desv. ex Ham.;Emmotum;Icacinaceae
+144;144;71;32;Cipura paludosa Aubl.;Cipura;Iridaceae
+145;145;72;32;Eleutherine bulbosa (Mill.) Urb.;Eleutherine;Iridaceae
+146;146;73;20;Oxandra asbeckii (Pulle) R.E.Fr.;Oxandra;Annonaceae
+147;147;73;20;Oxandra xylopioides Diels;Oxandra;Annonaceae
+148;148;74;33;Lacistema aggregatum (P.J.Bergius) Rusby;Lacistema;Lacistemataceae
+149;149;74;33;Lacistema grandifolium Schnizl.;Lacistema;Lacistemataceae
+150;150;74;33;Lacistema polystachyum Schnizl.;Lacistema;Lacistemataceae
+151;151;75;34;Aegiphila macrantha Ducke;Aegiphila;Lamiaceae
+152;152;75;34;Aegiphila villosa (Aubl.) J.F.Gmel.;Aegiphila;Lamiaceae
+153;153;76;34;Amasonia campestris (Aubl.) Moldenke;Amasonia;Lamiaceae
+154;154;77;34;Clerodendrum paniculatum L.;Clerodendrum;Lamiaceae
+155;155;78;34;Congea tomentosa Roxb.;Congea;Lamiaceae
+156;156;79;20;Pseudoxandra cuspidata Maas;Pseudoxandra;Annonaceae
+157;157;80;34;Gmelina philippensis Cham.;Gmelina;Lamiaceae
+158;158;81;34;Holmskioldia sanguinea Retz.;Holmskioldia;Lamiaceae
+159;159;82;34;Hyptis lanceolata Poir.;Hyptis;Lamiaceae
+160;160;83;20;Rollinia mucosa (Jacq.) Baill.;Rollinia;Annonaceae
+161;161;82;34;Hyptis mutabilis (Rich.) Briq.;Hyptis;Lamiaceae
+162;162;84;34;Marsypianthes chamaedrys (Vahl) Kuntze;Marsypianthes;Lamiaceae
+163;163;85;20;Trigynaea caudata (R.E. Fr.) R.E. Fr.;Trigynaea;Annonaceae
+164;164;85;20;Trigynaea duckei (R.E.Fr.) R.E.Fr.;Trigynaea;Annonaceae
+165;165;86;20;Unonopsis glaucopetala R.E.Fr.;Unonopsis;Annonaceae
+166;166;86;20;Unonopsis guatterioides (A.DC.) R.E.Fr.;Unonopsis;Annonaceae
+167;167;86;20;Unonopsis perrottetii (A. DC.) R.E. Fr.;Unonopsis;Annonaceae
+168;168;86;20;Unonopsis rufescens (Baill.) R.E. Fr.;Unonopsis;Annonaceae
+169;169;87;34;Ocimum campechianum Mill.;Ocimum;Lamiaceae
+170;170;86;20;Unonopsis stipitata Diels;Unonopsis;Annonaceae
+171;171;88;34;Orthosiphon aristatus (Blume) Miq.;Orthosiphon;Lamiaceae
+172;172;89;34;Plectranthus amboinicus (Lour.) Spreng.;Plectranthus;Lamiaceae
+173;173;90;20;Xylopia aromatica (Lam.) Mart.;Xylopia;Annonaceae
+174;174;90;20;Xylopia cayennensis Maas;Xylopia;Annonaceae
+175;175;90;20;Xylopia crinita R.E.Fr.;Xylopia;Annonaceae
+176;176;90;20;Xylopia frutescens Aubl.;Xylopia;Annonaceae
+177;177;90;20;Xylopia nitida Dunal;Xylopia;Annonaceae
+178;178;90;20;Xylopia surinamensis R.E. Fr.;Xylopia;Annonaceae
+179;179;91;34;Vitex orinocensis Kunth;Vitex;Lamiaceae
+180;180;92;35;Aiouea guianensis Aubl.;Aiouea;Lauraceae
+181;181;92;35;Aiouea longipetiolata van der Werff;Aiouea;Lauraceae
+182;182;92;35;Aiouea opaca van der Werff;Aiouea;Lauraceae
+183;183;93;35;Aniba citrifolia (Nees) Mez;Aniba;Lauraceae
+184;184;93;35;Aniba guianensis Aubl.;Aniba;Lauraceae
+185;185;93;35;Aniba kappleri Mez;Aniba;Lauraceae
+186;186;93;35;Aniba megaphylla Mez;Aniba;Lauraceae
+187;187;93;35;Aniba panurensis (Meisn.) Mez;Aniba;Lauraceae
+188;188;93;35;Aniba parviflora (Meisn.) Mez;Aniba;Lauraceae
+189;189;93;35;Aniba taubertiana Mez;Aniba;Lauraceae
+190;190;94;35;Endlicheria canescens Chanderbali;Endlicheria;Lauraceae
+191;191;94;35;Endlicheria punctulata (Mez) C.K.Allen;Endlicheria;Lauraceae
+192;192;94;35;Endlicheria pyriformis (Nees) Mez;Endlicheria;Lauraceae
+193;193;95;35;Kubitzkia mezii (Kosterm.) van der Werff;Kubitzkia;Lauraceae
+194;194;96;35;Licaria chrysophylla (Meisn.) Kosterm.;Licaria;Lauraceae
+195;195;96;35;Licaria martiniana (Mez) Kosterm.;Licaria;Lauraceae
+196;196;96;35;Licaria pachycarpa (Meisn.) Kosterm.;Licaria;Lauraceae
+197;197;97;35;Nectandra amazonum Nees;Nectandra;Lauraceae
+198;198;97;35;Nectandra cissiflora Nees;Nectandra;Lauraceae
+199;199;98;35;Ocotea amazonica (Meisn.) Mez;Ocotea;Lauraceae
+200;200;98;35;Ocotea argyrophylla Ducke;Ocotea;Lauraceae
+201;201;98;35;Ocotea cernua (Nees) Mez;Ocotea;Lauraceae
+202;202;98;35;Ocotea cinerea van der Werff;Ocotea;Lauraceae
+203;203;98;35;Ocotea cujumary Mart.;Ocotea;Lauraceae
+204;204;98;35;Ocotea diffusa van der Werff;Ocotea;Lauraceae
+205;205;98;35;Ocotea floribunda (Sw.) Mez;Ocotea;Lauraceae
+206;206;98;35;Ocotea glomerata (Nees) Mez;Ocotea;Lauraceae
+207;207;98;35;Ocotea leucoxylon (Sw.) Laness.;Ocotea;Lauraceae
+208;208;98;35;Ocotea longifolia Kunth;Ocotea;Lauraceae
+209;209;98;35;Ocotea nigra Benoist;Ocotea;Lauraceae
+210;210;98;35;Ocotea oblonga (Meisn.) Mez;Ocotea;Lauraceae
+211;211;98;35;Ocotea percurrens Vicent.;Ocotea;Lauraceae
+212;212;98;35;Ocotea puberula (Rich.) Nees;Ocotea;Lauraceae
+213;213;98;35;Ocotea scabrella van der Werff;Ocotea;Lauraceae
+214;214;98;35;Ocotea splendens (Meisn.) Baill.;Ocotea;Lauraceae
+215;215;98;35;Ocotea subterminalis van der Werff;Ocotea;Lauraceae
+216;216;99;35;Rhodostemonodaphne grandis (Mez) Rohwer;Rhodostemonodaphne;Lauraceae
+217;217;100;36;Couratari guianensis Aubl.;Couratari;Lecythidaceae
+218;218;100;36;Couratari multiflora (Sm.) Eyma;Couratari;Lecythidaceae
+219;219;100;36;Couratari stellata A.C.Sm.;Couratari;Lecythidaceae
+220;220;101;36;Eschweilera coriacea (DC.) S.A.Mori;Eschweilera;Lecythidaceae
+221;221;101;36;Eschweilera decolorans Sandwith;Eschweilera;Lecythidaceae
+222;222;101;36;Eschweilera grandiflora (Aubl.) Sandwith;Eschweilera;Lecythidaceae
+223;223;101;36;Eschweilera micrantha (O.Berg) Miers;Eschweilera;Lecythidaceae
+224;224;101;36;Eschweilera parviflora (Aubl.) Miers;Eschweilera;Lecythidaceae
+225;225;101;36;Eschweilera pedicellata (Rich.) S.A.Mori;Eschweilera;Lecythidaceae
+226;226;101;36;Eschweilera sagotiana Miers;Eschweilera;Lecythidaceae
+227;227;101;36;Eschweilera squamata S.A.Mori;Eschweilera;Lecythidaceae
+228;228;101;36;Eschweilera subglandulosa (Steud. ex O.Berg) Miers;Eschweilera;Lecythidaceae
+229;229;102;36;Gustavia augusta L.;Gustavia;Lecythidaceae
+230;230;102;36;Gustavia hexapetala (Aubl.) Sm.;Gustavia;Lecythidaceae
+231;231;103;36;Lecythis chartacea O.Berg;Lecythis;Lecythidaceae
+232;232;103;36;Lecythis corrugata Poit.;Lecythis;Lecythidaceae
+233;233;103;36;Lecythis holcogyne (Sandwith) S.A.Mori;Lecythis;Lecythidaceae
+234;234;103;36;Lecythis idatimon Aubl.;Lecythis;Lecythidaceae
+235;235;103;36;Lecythis persistens Sagot;Lecythis;Lecythidaceae
+236;236;103;36;Lecythis poiteaui O.Berg;Lecythis;Lecythidaceae
+237;237;103;36;Lecythis zabucajo Aubl.;Lecythis;Lecythidaceae
+238;238;104;37;Abarema gallorum Barneby & J.W.Grimes;Abarema;Leguminosae
+239;239;104;37;Abarema jupunba (Willd.) Britton & Killip;Abarema;Leguminosae
+240;240;105;37;Acacia mangium Willd.;Acacia;Leguminosae
+241;241;105;37;Acacia tenuifolia (L.) Willd.;Acacia;Leguminosae
+242;242;106;37;Alexa wachenheimii Benoist;Alexa;Leguminosae
+243;243;107;37;Bauhinia guianensis Aubl.;Bauhinia;Leguminosae
+244;244;108;37;Bocoa prouacensis Aubl.;Bocoa;Leguminosae
+245;245;109;37;Caesalpinia pulcherrima (L.) Sw.;Caesalpinia;Leguminosae
+246;246;110;37;Cajanus cajan (L.) Millsp.;Cajanus;Leguminosae
+247;247;111;37;Calliandra surinamensis Benth.;Calliandra;Leguminosae
+248;248;112;37;Cassia grandis L.f.;Cassia;Leguminosae
+249;249;112;37;Cassia spruceana Benth.;Cassia;Leguminosae
+250;250;113;37;Chamaecrista apoucouita (Aubl.) H.S.Irwin & Barneby;Chamaecrista;Leguminosae
+251;251;113;37;Chamaecrista desvauxii (Collad.) Killip;Chamaecrista;Leguminosae
+252;252;113;37;Chamaecrista diphylla (L.) Greene;Chamaecrista;Leguminosae
+253;253;113;37;Chamaecrista nictitans (L.) Moench;Chamaecrista;Leguminosae
+254;254;114;37;Clitoria sagotii Fantz;Clitoria;Leguminosae
+255;255;115;37;Crotalaria retusa L.;Crotalaria;Leguminosae
+256;256;116;37;Crudia bracteata Benth.;Crudia;Leguminosae
+257;257;116;37;Crudia oblonga Benth.;Crudia;Leguminosae
+258;258;116;37;Crudia tomentosa (Aubl.) J.F.Macbr.;Crudia;Leguminosae
+259;259;117;37;Cynometra hostmanniana Tul.;Cynometra;Leguminosae
+260;260;118;37;Dalbergia monetaria L.f.;Dalbergia;Leguminosae
+261;261;119;38;Eryngium foetidum L.;Eryngium;Apiaceae
+262;262;120;37;Dialium guianense (Aubl.) Sandwith;Dialium;Leguminosae
+263;263;121;37;Dicorynia guianensis Amshoff;Dicorynia;Leguminosae
+264;264;122;37;Dioclea guianensis Benth.;Dioclea;Leguminosae
+265;265;122;37;Dioclea macrocarpa Huber;Dioclea;Leguminosae
+266;266;123;37;Diplotropis purpurea (Rich.) Amshoff;Diplotropis;Leguminosae
+267;267;124;37;Dussia discolor (Benth.) Amshoff;Dussia;Leguminosae
+268;268;125;37;Entada polystachya (L.) DC.;Entada;Leguminosae
+269;269;126;37;Enterolobium oldemanii Barneby & J.W.Grimes;Enterolobium;Leguminosae
+270;270;127;37;Eperua falcata Aubl.;Eperua;Leguminosae
+271;271;127;37;Eperua rubiginosa Miq.;Eperua;Leguminosae
+272;272;128;37;Erythrina fusca Lour.;Erythrina;Leguminosae
+273;273;129;37;Hymenaea courbaril L.;Hymenaea;Leguminosae
+274;274;130;37;Inga acrocephala Steud.;Inga;Leguminosae
+275;275;130;37;Inga alata Benoist;Inga;Leguminosae
+276;276;130;37;Inga alba (Sw.) Willd.;Inga;Leguminosae
+277;277;130;37;Inga capitata Desv.;Inga;Leguminosae
+278;278;130;37;Inga edulis Mart.;Inga;Leguminosae
+279;279;130;37;Inga fanchoniana Poncy;Inga;Leguminosae
+280;280;130;37;Inga huberi Ducke;Inga;Leguminosae
+281;281;130;37;Inga ingoides (Rich.) Willd.;Inga;Leguminosae
+282;282;130;37;Inga jenmanii Sandwith;Inga;Leguminosae
+283;283;130;37;Inga lateriflora Miq.;Inga;Leguminosae
+284;284;130;37;Inga nobilis Willd.;Inga;Leguminosae
+285;285;130;37;Inga nouragensis Poncy;Inga;Leguminosae
+286;286;130;37;Inga paraensis Ducke;Inga;Leguminosae
+287;287;130;37;Inga pezizifera Benth.;Inga;Leguminosae
+288;288;130;37;Inga pilosula (Rich.) J.F.Macbr.;Inga;Leguminosae
+289;289;130;37;Inga poeppigiana Benth.;Inga;Leguminosae
+290;290;130;37;Inga retinocarpa Poncy;Inga;Leguminosae
+291;291;130;37;Inga sarmentosa Glaz. ex Harms;Inga;Leguminosae
+292;292;130;37;Inga sertulifera DC.;Inga;Leguminosae
+293;293;130;37;Inga striata Benth.;Inga;Leguminosae
+294;294;130;37;Inga thibaudiana DC.;Inga;Leguminosae
+295;295;131;37;Machaerium lunatum (L.f.) Ducke;Machaerium;Leguminosae
+296;296;132;37;Macrolobium acaciifolium (Benth.) Benth.;Macrolobium;Leguminosae
+297;297;132;37;Macrolobium bifolium (Aubl.) Pers.;Macrolobium;Leguminosae
+298;298;133;37;Mimosa guilandinae (DC.) Barneby;Mimosa;Leguminosae
+299;299;133;37;Mimosa pigra L.;Mimosa;Leguminosae
+300;300;133;37;Mimosa pudica L.;Mimosa;Leguminosae
+301;301;134;37;Mucuna sloanei Fawc. & Rendle;Mucuna;Leguminosae
+302;302;135;37;Ormosia coccinea (Aubl.) Jacks.;Ormosia;Leguminosae
+303;303;135;37;Ormosia costulata (Miq.) Kleinhoonte;Ormosia;Leguminosae
+304;304;135;37;Ormosia melanocarpa Kleinhoonte;Ormosia;Leguminosae
+305;305;135;37;Ormosia paraensis Ducke;Ormosia;Leguminosae
+306;306;136;37;Paramachaerium ormosioides (Ducke) Ducke;Paramachaerium;Leguminosae
+307;307;137;37;Parkia nitida Miq.;Parkia;Leguminosae
+308;308;137;37;Parkia ulei (Harms) Kuhlm.;Parkia;Leguminosae
+309;309;137;37;Parkia velutina Benoist;Parkia;Leguminosae
+310;310;138;37;Peltogyne lecointei Ducke;Peltogyne;Leguminosae
+311;311;139;37;Pentaclethra macroloba (Willd.) Kuntze;Pentaclethra;Leguminosae
+312;312;140;37;Poecilanthe effusa (Huber) Ducke;Poecilanthe;Leguminosae
+313;313;140;37;Poecilanthe hostmannii (Benth.) Amshoff;Poecilanthe;Leguminosae
+314;314;141;37;Pseudopiptadenia suaveolens (Miq.) J.W. Grimes;Pseudopiptadenia;Leguminosae
+315;315;142;37;Pterocarpus officinalis Jacq.;Pterocarpus;Leguminosae
+316;316;143;37;Sclerolobium guianense Benth.;Sclerolobium;Leguminosae
+317;317;143;37;Sclerolobium melinonii Harms;Sclerolobium;Leguminosae
+318;318;144;37;Senna alata (L.) Roxb.;Senna;Leguminosae
+319;319;144;37;Senna chrysocarpa (Desv.) H.S.Irwin & Barneby;Senna;Leguminosae
+320;320;144;37;Senna obtusifolia (L.) H.S.Irwin & Barneby;Senna;Leguminosae
+321;321;144;37;Senna occidentalis (L.) Link;Senna;Leguminosae
+322;322;145;37;Spirotropis longifolia (DC.) Baill.;Spirotropis;Leguminosae
+323;323;146;37;Stryphnodendron guianense (Aubl.) Benth.;Stryphnodendron;Leguminosae
+324;324;147;37;Swartzia aptera DC.;Swartzia;Leguminosae
+325;325;147;37;Swartzia arborescens (Aubl.) Pittier;Swartzia;Leguminosae
+326;326;147;37;Swartzia benthamiana Miq.;Swartzia;Leguminosae
+327;327;147;37;Swartzia guianensis (Aubl.) Urb.;Swartzia;Leguminosae
+328;328;147;37;Swartzia longicarpa Amshoff;Swartzia;Leguminosae
+329;329;147;37;Swartzia panacoco (Aubl.) Cowan;Swartzia;Leguminosae
+330;330;147;37;Swartzia polyphylla DC.;Swartzia;Leguminosae
+331;331;148;37;Tachigali melanocarpa (Ducke) van der Werff;Tachigali;Leguminosae
+332;332;148;37;Tachigali melinonii (Harms) Zarucchi & Herend.;Tachigali;Leguminosae
+333;333;148;37;Tachigali paniculata Aubl.;Tachigali;Leguminosae
+334;334;148;37;Tachigali paraensis (Huber) Barneby;Tachigali;Leguminosae
+335;335;148;37;Tachigali richardiana Tul.;Tachigali;Leguminosae
+336;336;149;37;Taralea oppositifolia Aubl.;Taralea;Leguminosae
+337;337;150;37;Vatairea erythrocarpa (Ducke) Ducke;Vatairea;Leguminosae
+338;338;151;37;Vouacapoua americana Aubl.;Vouacapoua;Leguminosae
+339;339;152;37;Zygia racemosa (Ducke) Barneby & J.W. Grimes;Zygia;Leguminosae
+340;340;152;37;Zygia sabatieri Barneby & J.W. Grimes;Zygia;Leguminosae
+341;341;153;39;Utricularia foliosa L.;Utricularia;Lentibulariaceae
+342;342;153;39;Utricularia hispida Lam.;Utricularia;Lentibulariaceae
+343;343;153;39;Utricularia subulata L.;Utricularia;Lentibulariaceae
+344;344;154;40;Lindernia crustacea (L.) F.Muell.;Lindernia;Linderniaceae
+345;345;155;41;Lindsaea divaricata Klotzsch;Lindsaea;Lindsaeaceae
+346;346;155;41;Lindsaea guianensis (Aubl.) Dryand.;Lindsaea;Lindsaeaceae
+347;347;155;41;Lindsaea lancea (L.) Bedd.;Lindsaea;Lindsaeaceae
+348;348;155;41;Lindsaea quadrangularis Raddi;Lindsaea;Lindsaeaceae
+349;349;155;41;Lindsaea stricta (Sw.) Dryand.;Lindsaea;Lindsaeaceae
+350;350;156;42;Spigelia anthelmia L.;Spigelia;Loganiaceae
+351;351;156;42;Spigelia hamelioides Kunth;Spigelia;Loganiaceae
+352;352;157;42;Strychnos cayennensis Krukoff & Barneby;Strychnos;Loganiaceae
+353;353;157;42;Strychnos tomentosa Benth.;Strychnos;Loganiaceae
+354;354;158;43;Cladocolea micrantha (Eichler) Kuijt;Cladocolea;Loranthaceae
+355;355;159;44;Huperzia taxifolia (Sw.) Trevis.;Huperzia;Lycopodiaceae
+356;356;160;45;Lygodium venustum Sw.;Lygodium;Lygodiaceae
+357;357;160;45;Lygodium volubile Sw.;Lygodium;Lygodiaceae
+358;358;161;46;Cuphea carthagenensis (Jacq.) J.F.Macbr.;Cuphea;Lythraceae
+359;359;162;46;Lafoensia vandelliana Cham. & Schltdl.;Lafoensia;Lythraceae
+360;360;163;46;Lagerstroemia speciosa (L.) Pers.;Lagerstroemia;Lythraceae
+361;361;164;46;Punica granatum L.;Punica;Lythraceae
+362;362;165;47;Bunchosia argentea (Jacq.) DC.;Bunchosia;Malpighiaceae
+363;363;166;47;Byrsonima christianeae W.R.Anderson;Byrsonima;Malpighiaceae
+364;364;167;48;Abelmoschus moschatus Medik.;Abelmoschus;Malvaceae
+365;365;168;48;Adansonia digitata L.;Adansonia;Malvaceae
+366;366;169;49;Allamanda cathartica L.;Allamanda;Apocynaceae
+367;367;170;48;Apeiba tibourbou Aubl.;Apeiba;Malvaceae
+368;368;171;48;Byttneria cordifolia Sagot;Byttneria;Malvaceae
+369;369;172;48;Catostemma fragrans Benth.;Catostemma;Malvaceae
+370;370;173;48;Ceiba pentandra (L.) Gaertn.;Ceiba;Malvaceae
+371;371;174;48;Gossypium barbadense L.;Gossypium;Malvaceae
+372;372;175;49;Ambelania acida Aubl.;Ambelania;Apocynaceae
+373;373;176;48;Guazuma ulmifolia Lam.;Guazuma;Malvaceae
+374;374;177;48;Helicteres pentandra L.;Helicteres;Malvaceae
+375;375;178;48;Hibiscus furcellatus Desr.;Hibiscus;Malvaceae
+376;376;178;48;Hibiscus rosa-sinensis L.;Hibiscus;Malvaceae
+377;377;179;48;Huberodendron swietenioides (Gleason) Ducke;Huberodendron;Malvaceae
+378;378;180;48;Lueheopsis rugosa (Pulle) Burret;Lueheopsis;Malvaceae
+379;379;181;48;Ochroma pyramidale (Cav. ex Lam.) Urb.;Ochroma;Malvaceae
+380;380;182;48;Pachira dolichocalyx A. Robyns;Pachira;Malvaceae
+381;381;183;49;Asclepias curassavica L.;Asclepias;Apocynaceae
+382;382;184;48;Quararibea duckei Huber;Quararibea;Malvaceae
+383;383;184;48;Quararibea guianensis Aubl.;Quararibea;Malvaceae
+384;384;184;48;Quararibea turbinata (Sw.) Poir.;Quararibea;Malvaceae
+385;385;185;48;Sida rhombifolia L.;Sida;Malvaceae
+386;386;186;48;Sterculia frondosa Rich.;Sterculia;Malvaceae
+387;387;186;48;Sterculia pruriens (Aubl.) K.Schum.;Sterculia;Malvaceae
+388;388;186;48;Sterculia villifera Steud.;Sterculia;Malvaceae
+389;389;187;48;Theobroma cacao L.;Theobroma;Malvaceae
+390;390;187;48;Theobroma subincanum Mart.;Theobroma;Malvaceae
+391;391;187;48;Theobroma velutinum Benoist;Theobroma;Malvaceae
+392;392;188;50;Maranta rupicola L.Andersson;Maranta;Marantaceae
+393;393;189;51;Danaea nodosa (L.) Sm.;Danaea;Marattiaceae
+394;394;189;51;Danaea simplicifolia Rudge;Danaea;Marattiaceae
+395;395;190;52;Marcgravia pedunculosa Triana & Planch.;Marcgravia;Marcgraviaceae
+396;396;191;52;Norantea guianensis Aubl.;Norantea;Marcgraviaceae
+397;397;192;52;Souroubea guianensis Aubl.;Souroubea;Marcgraviaceae
+398;398;193;49;Aspidosperma sandwithianum Markgr.;Aspidosperma;Apocynaceae
+399;399;194;53;Aciotis indecora (Bonpl.) Triana;Aciotis;Melastomataceae
+400;400;194;53;Aciotis purpurascens (Aubl.) Triana;Aciotis;Melastomataceae
+401;401;195;53;Adelobotrys adscendens (Sw.) Triana;Adelobotrys;Melastomataceae
+402;402;196;53;Appendicularia thymifolia (Bonpl.) DC.;Appendicularia;Melastomataceae
+403;403;197;53;Bellucia grossularioides (L.) Triana;Bellucia;Melastomataceae
+404;404;198;53;Clidemia conglomerata DC.;Clidemia;Melastomataceae
+405;405;198;53;Clidemia hirta (L.) D. Don;Clidemia;Melastomataceae
+406;406;198;53;Clidemia laevifolia Gleason;Clidemia;Melastomataceae
+407;407;198;53;Clidemia petiolata DC.;Clidemia;Melastomataceae
+408;408;198;53;Clidemia septuplinervia Cogn.;Clidemia;Melastomataceae
+409;409;199;53;Comolia villosa (Aubl.) Triana;Comolia;Melastomataceae
+410;410;200;53;Desmoscelis villosa (Aubl.) Naudin;Desmoscelis;Melastomataceae
+411;411;201;53;Ernestia confertiflora Wurdack;Ernestia;Melastomataceae
+412;412;201;53;Ernestia glandulosa Gleason;Ernestia;Melastomataceae
+413;413;202;53;Henriettea succosa (Aubl.) DC.;Henriettea;Melastomataceae
+414;414;203;53;Henriettella flavescens (Aubl.) Triana;Henriettella;Melastomataceae
+415;415;204;49;Blepharodon pictum (Vahl) W.D.Stevens;Blepharodon;Apocynaceae
+416;416;205;53;Leandra divaricata (Naudin) Cogn.;Leandra;Melastomataceae
+417;417;205;53;Leandra rufescens (DC.) Cogn.;Leandra;Melastomataceae
+418;418;205;53;Leandra solenifera Cogn.;Leandra;Melastomataceae
+419;419;206;53;Loreya mespiloides Miq.;Loreya;Melastomataceae
+420;420;207;53;Macrocentrum cristatum (DC.) Triana;Macrocentrum;Melastomataceae
+421;421;208;53;Maieta guianensis Aubl.;Maieta;Melastomataceae
+422;422;209;53;Miconia acuminata (Steud.) Naudin;Miconia;Melastomataceae
+423;423;209;53;Miconia affinis DC.;Miconia;Melastomataceae
+424;424;209;53;Miconia alata (Aubl.) DC.;Miconia;Melastomataceae
+425;425;209;53;Miconia argyrophylla DC.;Miconia;Melastomataceae
+426;426;209;53;Miconia bracteata (DC.) Triana;Miconia;Melastomataceae
+427;427;209;53;Miconia ceramicarpa (DC.) Cogn.;Miconia;Melastomataceae
+428;428;209;53;Miconia chrysophylla (Rich.) Urb.;Miconia;Melastomataceae
+429;429;209;53;Miconia ciliata (Rich.) DC.;Miconia;Melastomataceae
+430;430;209;53;Miconia diaphanea Gleason;Miconia;Melastomataceae
+431;431;209;53;Miconia egensis Cogn.;Miconia;Melastomataceae
+432;432;209;53;Miconia holosericea (L.) DC.;Miconia;Melastomataceae
+433;433;209;53;Miconia lateriflora Cogn.;Miconia;Melastomataceae
+434;434;209;53;Miconia longifolia (Aubl.) DC.;Miconia;Melastomataceae
+435;435;209;53;Miconia melinonis Naudin;Miconia;Melastomataceae
+436;436;209;53;Miconia minutiflora (Bonpl.) DC.;Miconia;Melastomataceae
+437;437;209;53;Miconia nervosa (Sm.) Triana;Miconia;Melastomataceae
+438;438;209;53;Miconia plukenetii Naudin;Miconia;Melastomataceae
+439;439;209;53;Miconia poeppigii Triana;Miconia;Melastomataceae
+440;440;209;53;Miconia prasina (Sw.) DC.;Miconia;Melastomataceae
+441;441;209;53;Miconia pubipetala Miq.;Miconia;Melastomataceae
+442;442;209;53;Miconia racemosa (Aubl.) DC.;Miconia;Melastomataceae
+443;443;209;53;Miconia serialis DC.;Miconia;Melastomataceae
+444;444;209;53;Miconia serrulata (DC.) Naudin;Miconia;Melastomataceae
+445;445;209;53;Miconia splendens (Sw.) Griseb.;Miconia;Melastomataceae
+446;446;209;53;Miconia tomentosa (Rich.) D. Don ex DC.;Miconia;Melastomataceae
+447;447;210;53;Mouriri collocarpa Ducke;Mouriri;Melastomataceae
+448;448;210;53;Mouriri crassifolia Sagot;Mouriri;Melastomataceae
+449;449;210;53;Mouriri grandiflora DC.;Mouriri;Melastomataceae
+450;450;210;53;Mouriri nervosa Pilg.;Mouriri;Melastomataceae
+451;451;210;53;Mouriri oligantha Pilg.;Mouriri;Melastomataceae
+452;452;210;53;Mouriri sagotiana Triana;Mouriri;Melastomataceae
+453;453;210;53;Mouriri vernicosa Naudin;Mouriri;Melastomataceae
+454;454;211;53;Nepsera aquatica (Aubl.) Naudin;Nepsera;Melastomataceae
+455;455;212;53;Pterolepis glomerata (Rottb.) Miq.;Pterolepis;Melastomataceae
+456;456;213;53;Rhynchanthera grandiflora (Aubl.) DC.;Rhynchanthera;Melastomataceae
+457;457;214;53;Tibouchina aspera Aubl.;Tibouchina;Melastomataceae
+458;458;215;53;Tococa guianensis Aubl.;Tococa;Melastomataceae
+459;459;216;53;Topobea parasitica Aubl.;Topobea;Melastomataceae
+460;460;217;53;Votomita guianensis Aubl.;Votomita;Melastomataceae
+461;461;218;54;Carapa guianensis Aubl.;Carapa;Meliaceae
+462;462;219;54;Cedrela odorata L.;Cedrela;Meliaceae
+463;463;220;54;Guarea guidonia (L.) Sleumer;Guarea;Meliaceae
+464;464;221;54;Swietenia mahagoni (L.) Jacq.;Swietenia;Meliaceae
+465;465;222;54;Trichilia micrantha Benth.;Trichilia;Meliaceae
+466;466;222;54;Trichilia pallida Sw.;Trichilia;Meliaceae
+467;467;222;54;Trichilia schomburgkii C.DC.;Trichilia;Meliaceae
+468;468;223;55;Abuta sandwithiana Krukoff & Barneby;Abuta;Menispermaceae
+469;469;224;56;Metaxya rostrata (Kunth) C. Presl;Metaxya;Metaxyaceae
+470;470;225;57;Brosimum rubescens Taub.;Brosimum;Moraceae
+471;471;226;57;Ficus leiophylla C.C.Berg;Ficus;Moraceae
+472;472;227;58;Justicia betonica L.;Justicia;Acanthaceae
+473;473;226;57;Ficus schumacheri (Liebm.) Griseb.;Ficus;Moraceae
+474;474;226;57;Ficus trigona L.f.;Ficus;Moraceae
+475;475;228;57;Pseudolmedia laevis (Ruiz & Pav.) J.F.Macbr.;Pseudolmedia;Moraceae
+476;476;229;57;Trymatococcus amazonicus Poepp. & Endl.;Trymatococcus;Moraceae
+477;477;230;59;Iryanthera paraensis Huber;Iryanthera;Myristicaceae
+478;478;230;59;Iryanthera sagotiana (Benth.) Warb.;Iryanthera;Myristicaceae
+479;479;231;49;Couma guianensis Aubl.;Couma;Apocynaceae
+480;480;232;60;Calycorectes bergii Sandwith;Calycorectes;Myrtaceae
+481;481;232;60;Calycorectes grandifolius O.Berg;Calycorectes;Myrtaceae
+482;482;233;60;Campomanesia grandiflora (Aubl.) Sagot;Campomanesia;Myrtaceae
+483;483;234;60;Eugenia albicans (O.Berg) Urb.;Eugenia;Myrtaceae
+484;484;234;60;Eugenia anastomosans DC.;Eugenia;Myrtaceae
+485;485;234;60;Eugenia argyrophylla B.Holst & M.L.Kawas.;Eugenia;Myrtaceae
+486;486;234;60;Eugenia armeniaca Sagot;Eugenia;Myrtaceae
+487;487;234;60;Eugenia biflora (L.) DC.;Eugenia;Myrtaceae
+488;488;234;60;Eugenia coffeifolia DC.;Eugenia;Myrtaceae
+489;489;234;60;Eugenia cupulata Amshoff;Eugenia;Myrtaceae
+490;490;234;60;Eugenia florida DC.;Eugenia;Myrtaceae
+491;491;234;60;Eugenia gongylocarpa M.L.Kawas. & B.K.Holst;Eugenia;Myrtaceae
+492;492;227;58;Justicia calycina (Nees) V.A.W.Graham;Justicia;Acanthaceae
+493;493;234;60;Eugenia lambertiana DC.;Eugenia;Myrtaceae
+494;494;234;60;Eugenia latifolia Aubl.;Eugenia;Myrtaceae
+495;495;234;60;Eugenia patrisii Vahl;Eugenia;Myrtaceae
+496;496;234;60;Eugenia pseudopsidium Jacq.;Eugenia;Myrtaceae
+497;497;234;60;Eugenia punicifolia (Kunth) DC.;Eugenia;Myrtaceae
+498;498;234;60;Eugenia ramiflora Desv. ex Ham.;Eugenia;Myrtaceae
+499;499;234;60;Eugenia spruceana O.Berg;Eugenia;Myrtaceae
+500;500;234;60;Eugenia stictopetala DC.;Eugenia;Myrtaceae
+501;501;235;60;Myrcia amazonica DC.;Myrcia;Myrtaceae
+502;502;235;60;Myrcia bracteata (Rich.) DC.;Myrcia;Myrtaceae
+503;503;235;60;Myrcia decorticans DC.;Myrcia;Myrtaceae
+504;504;235;60;Myrcia guianensis (Aubl.) DC.;Myrcia;Myrtaceae
+505;505;235;60;Myrcia multiflora (Lam.) DC.;Myrcia;Myrtaceae
+506;506;235;60;Myrcia rupta M.L.Kawas. & B.K.Holst;Myrcia;Myrtaceae
+507;507;235;60;Myrcia saxatilis (Amshoff) McVaugh;Myrcia;Myrtaceae
+508;508;235;60;Myrcia splendens (Sw.) DC.;Myrcia;Myrtaceae
+509;509;235;60;Myrcia sylvatica (G.Mey.) DC.;Myrcia;Myrtaceae
+510;510;235;60;Myrcia tomentosa (Aubl.) DC.;Myrcia;Myrtaceae
+511;511;236;60;Myrciaria floribunda (H.West ex Willd.) O.Berg;Myrciaria;Myrtaceae
+512;512;237;60;Psidium guajava L.;Psidium;Myrtaceae
+513;513;237;60;Psidium guineense Sw.;Psidium;Myrtaceae
+514;514;238;61;Nephrolepis biserrata (Sw.) Schott;Nephrolepis;Nephrolepidaceae
+515;515;238;61;Nephrolepis rivularis (Vahl) Mett. ex Krug;Nephrolepis;Nephrolepidaceae
+516;516;239;62;Neea floribunda Poepp. & Endl.;Neea;Nyctaginaceae
+517;517;240;63;Elvasia elvasioides (Planch.) Gilg;Elvasia;Ochnaceae
+518;518;240;63;Elvasia macrostipularis Sastre & Lescure;Elvasia;Ochnaceae
+519;519;241;63;Ouratea cerebroidea Sastre;Ouratea;Ochnaceae
+520;520;241;63;Ouratea guianensis Aubl.;Ouratea;Ochnaceae
+521;521;241;63;Ouratea pendula Poepp. ex Engl.;Ouratea;Ochnaceae
+522;522;241;63;Ouratea scottii Sastre;Ouratea;Ochnaceae
+523;523;242;63;Quiina integrifolia Pulle;Quiina;Ochnaceae
+524;524;242;63;Quiina obovata Tul.;Quiina;Ochnaceae
+525;525;243;64;Chaunochiton kappleri (Sagot ex Engl.) Ducke;Chaunochiton;Olacaceae
+526;526;244;64;Heisteria cauliflora Sm.;Heisteria;Olacaceae
+527;527;244;64;Heisteria densifrons Engl.;Heisteria;Olacaceae
+528;528;244;64;Heisteria ovata Benth.;Heisteria;Olacaceae
+529;529;245;64;Minquartia guianensis Aubl.;Minquartia;Olacaceae
+530;530;246;65;Jasminum sambac (L.) Aiton;Jasminum;Oleaceae
+531;531;247;49;Forsteronia acouci (Aubl.) A.DC.;Forsteronia;Apocynaceae
+532;532;248;66;Ludwigia affinis (DC.) H.Hara;Ludwigia;Onagraceae
+533;533;248;66;Ludwigia erecta (L.) H.Hara;Ludwigia;Onagraceae
+534;534;248;66;Ludwigia hyssopifolia (G.Don) Exell;Ludwigia;Onagraceae
+535;535;248;66;Ludwigia leptocarpa (Nutt.) H.Hara;Ludwigia;Onagraceae
+536;536;248;66;Ludwigia nervosa (Poir.) H.Hara;Ludwigia;Onagraceae
+537;537;248;66;Ludwigia octovalvis (Jacq.) P.H.Raven;Ludwigia;Onagraceae
+538;538;249;49;Geissospermum argenteum Woodson;Geissospermum;Apocynaceae
+539;539;249;49;Geissospermum laeve (Vell.) Miers;Geissospermum;Apocynaceae
+540;540;250;67;Agonandra silvatica Ducke;Agonandra;Opiliaceae
+541;541;251;68;Brassia lanceana Lindl.;Brassia;Orchidaceae
+542;542;252;49;Himatanthus articulatus (Vahl) Woodson;Himatanthus;Apocynaceae
+543;543;253;49;Lacmellea aculeata (Ducke) Monach.;Lacmellea;Apocynaceae
+544;544;254;68;Cleistes rosea Lindl.;Cleistes;Orchidaceae
+545;545;255;49;Macoubea guianensis Aubl.;Macoubea;Apocynaceae
+546;546;256;49;Malouetia tamaquarina (Aubl.) A.DC.;Malouetia;Apocynaceae
+547;547;257;49;Mandevilla hirsuta (Rich.) K.Schum.;Mandevilla;Apocynaceae
+548;548;257;49;Mandevilla rugellosa (Rich.) L.Allorge;Mandevilla;Apocynaceae
+549;549;257;49;Mandevilla subspicata (Vahl) Markgr.;Mandevilla;Apocynaceae
+550;550;258;68;Epidendrum nocturnum Jacq.;Epidendrum;Orchidaceae
+551;551;259;68;Ionopsis utricularioides (Sw.) Lindl.;Ionopsis;Orchidaceae
+552;552;260;68;Lepanthes cremersii Luer;Lepanthes;Orchidaceae
+553;553;261;49;Odontadenia puncticulosa (Rich.) Pulle;Odontadenia;Apocynaceae
+554;554;262;68;Masdevallia minuta Lindl.;Masdevallia;Orchidaceae
+555;555;263;49;Parahancornia fasciculata (Poir.) Benoist;Parahancornia;Apocynaceae
+556;556;264;68;Palmorchis prospectorum Veyret;Palmorchis;Orchidaceae
+557;557;265;68;Pleurothallis lanceana Lodd.;Pleurothallis;Orchidaceae
+558;558;265;68;Pleurothallis ruscifolia (Jacq.) R.Br.;Pleurothallis;Orchidaceae
+559;559;266;68;Prescottia stachyodes (Sw.) Lindl.;Prescottia;Orchidaceae
+560;560;227;58;Justicia pectoralis Jacq.;Justicia;Acanthaceae
+561;561;267;68;Trigonidium acuminatum Bateman ex Lindl.;Trigonidium;Orchidaceae
+562;562;268;69;Averrhoa carambola L.;Averrhoa;Oxalidaceae
+563;563;269;49;Tabernaemontana undulata Vahl;Tabernaemontana;Apocynaceae
+564;564;270;70;Piriqueta cistoides (L.) Griseb.;Piriqueta;Passifloraceae
+565;565;271;70;Turnera aurantiaca Benth.;Turnera;Passifloraceae
+566;566;271;70;Turnera guianensis Aubl.;Turnera;Passifloraceae
+567;567;271;70;Turnera odorata Rich.;Turnera;Passifloraceae
+568;568;271;70;Turnera rupestris Aubl.;Turnera;Passifloraceae
+569;569;271;70;Turnera ulmifolia L.;Turnera;Passifloraceae
+570;570;272;71;Sesamum indicum L.;Sesamum;Pedaliaceae
+571;571;273;72;Ternstroemia dentata (Aubl.) Sw.;Ternstroemia;Pentaphylacaceae
+572;572;274;73;Pogonophora schomburgkiana Miers ex Benth.;Pogonophora;Peraceae
+573;573;275;74;Amanoa guianensis Aubl.;Amanoa;Phyllanthaceae
+574;574;276;74;Phyllanthus brasiliensis (Aubl.) Poir.;Phyllanthus;Phyllanthaceae
+575;575;276;74;Phyllanthus urinaria L.;Phyllanthus;Phyllanthaceae
+576;576;277;75;Microtea debilis Sw.;Microtea;Phytolaccaceae
+577;577;278;75;Rivina humilis L.;Rivina;Phytolaccaceae
+578;578;279;76;Peperomia macrostachya (Vahl) A.Dietr.;Peperomia;Piperaceae
+579;579;279;76;Peperomia ouabianae C.DC.;Peperomia;Piperaceae
+580;580;279;76;Peperomia pellucida (L.) Kunth;Peperomia;Piperaceae
+581;581;279;76;Peperomia serpens (Sw.) Loudon;Peperomia;Piperaceae
+582;582;280;76;Piper eucalyptifolium Rudge;Piper;Piperaceae
+583;583;280;76;Piper hostmannianum (Miq.) C.DC.;Piper;Piperaceae
+584;584;280;76;Piper marginatum Jacq.;Piper;Piperaceae
+585;585;280;76;Piper obliquum Ruiz & Pav.;Piper;Piperaceae
+586;586;280;76;Piper peltatum L.;Piper;Piperaceae
+587;587;281;77;Scoparia dulcis L.;Scoparia;Plantaginaceae
+588;588;282;78;Plumbago auriculata Lam.;Plumbago;Plumbaginaceae
+589;589;283;79;Anthurium gracile (Rudge) Lindl.;Anthurium;Araceae
+590;590;283;79;Anthurium jenmanii Engl.;Anthurium;Araceae
+591;591;283;79;Anthurium pentaphyllum (Aubl.) G.Don;Anthurium;Araceae
+592;592;284;80;Mourera fluviatilis Aubl.;Mourera;Podostemaceae
+593;593;285;81;Moutabea guianensis Aubl.;Moutabea;Polygalaceae
+594;594;286;81;Securidaca diversifolia (L.) S.F.Blake;Securidaca;Polygalaceae
+595;595;286;81;Securidaca paniculata Rich.;Securidaca;Polygalaceae
+596;596;287;79;Caladium bicolor (Aiton) Vent.;Caladium;Araceae
+597;597;288;82;Campyloneurum repens (Aubl.) C. Presl;Campyloneurum;Polypodiaceae
+598;598;289;82;Microgramma fuscopunctata (Hook.) Vareschi;Microgramma;Polypodiaceae
+599;599;289;82;Microgramma lycopodioides (L.) Copel.;Microgramma;Polypodiaceae
+600;600;289;82;Microgramma percussa (Cav.) de la Sota;Microgramma;Polypodiaceae
+601;601;289;82;Microgramma reptans (Cav.) A.R. Sm.;Microgramma;Polypodiaceae
+602;602;290;82;Niphidium crassifolium (L.) Lellinger;Niphidium;Polypodiaceae
+603;603;291;79;Dieffenbachia parvifolia Engl.;Dieffenbachia;Araceae
+604;604;291;79;Dieffenbachia seguine (Jacq.) Schott;Dieffenbachia;Araceae
+605;605;292;82;Polypodium triseriale Sw.;Polypodium;Polypodiaceae
+606;606;293;79;Dracontium polyphyllum L.;Dracontium;Araceae
+607;607;294;83;Eichhornia crassipes (Mart.) Solms;Eichhornia;Pontederiaceae
+608;608;295;84;Portulaca grandiflora Hook.;Portulaca;Portulacaceae
+609;609;296;79;Heteropsis flexuosa (Kunth) G.S.Bunting;Heteropsis;Araceae
+610;610;296;79;Heteropsis tenuispadix G.S.Bunting;Heteropsis;Araceae
+611;611;297;85;Clavija lancifolia Desf.;Clavija;Primulaceae
+612;612;298;79;Monstera adansonii Schott;Monstera;Araceae
+613;613;299;79;Montrichardia arborescens (L.) Schott;Montrichardia;Araceae
+614;614;300;86;Panopsis sessilifolia (Rich.) Sandwith;Panopsis;Proteaceae
+615;615;301;86;Roupala montana Aubl.;Roupala;Proteaceae
+616;616;302;87;Acrostichum aureum L.;Acrostichum;Pteridaceae
+617;617;302;87;Acrostichum danaeifolium Langsd. & Fisch.;Acrostichum;Pteridaceae
+618;618;303;87;Adiantum argutum Splitg.;Adiantum;Pteridaceae
+619;619;303;87;Adiantum cajennense Willd. ex Klotzsch;Adiantum;Pteridaceae
+620;620;303;87;Adiantum glaucescens Klotzsch;Adiantum;Pteridaceae
+621;621;303;87;Adiantum latifolium Lam.;Adiantum;Pteridaceae
+622;622;303;87;Adiantum leprieurii Hook.;Adiantum;Pteridaceae
+623;623;303;87;Adiantum lucidum (Cav.) Sw.;Adiantum;Pteridaceae
+624;624;303;87;Adiantum obliquum Willd.;Adiantum;Pteridaceae
+625;625;303;87;Adiantum paraense Hieron.;Adiantum;Pteridaceae
+626;626;303;87;Adiantum petiolatum Desv.;Adiantum;Pteridaceae
+627;627;304;79;Philodendron fragrantissimum (Hook.) G.Don;Philodendron;Araceae
+628;628;303;87;Adiantum pulverulentum L.;Adiantum;Pteridaceae
+629;629;303;87;Adiantum terminatum Kunze ex Miq.;Adiantum;Pteridaceae
+630;630;303;87;Adiantum tetraphyllum Humb. & Bonpl. ex Willd.;Adiantum;Pteridaceae
+631;631;305;87;Anetium citrifolium (L.) Splitg.;Anetium;Pteridaceae
+632;632;306;87;Ceratopteris thalictroides (L.) Brongn.;Ceratopteris;Pteridaceae
+633;633;304;79;Philodendron hederaceum (Jacq.) Schott;Philodendron;Araceae
+634;634;304;79;Philodendron insigne Schott;Philodendron;Araceae
+635;635;304;79;Philodendron linnaei Kunth;Philodendron;Araceae
+636;636;307;87;Pityrogramma calomelanos (L.) Link;Pityrogramma;Pteridaceae
+637;637;308;87;Pteris altissima Poir.;Pteris;Pteridaceae
+638;638;308;87;Pteris pungens Willd.;Pteris;Pteridaceae
+639;639;309;87;Vittaria costata Kunze;Vittaria;Pteridaceae
+640;640;309;87;Vittaria lineata (L.) Sm.;Vittaria;Pteridaceae
+641;641;304;79;Philodendron ornatum Schott;Philodendron;Araceae
+642;642;304;79;Philodendron pedatum (Hook.) Kunth;Philodendron;Araceae
+643;643;304;79;Philodendron placidum Schott;Philodendron;Araceae
+644;644;304;79;Philodendron rudgeanum Schott;Philodendron;Araceae
+645;645;304;79;Philodendron solimoesense A.C.Sm.;Philodendron;Araceae
+646;646;304;79;Philodendron squamiferum Poepp.;Philodendron;Araceae
+647;647;310;88;Rapatea paludosa Aubl.;Rapatea;Rapateaceae
+648;648;311;89;Rhabdodendron amazonicum (Spruce ex Benth.) Huber;Rhabdodendron;Rhabdodendraceae
+649;649;312;90;Ziziphus jujuba Mill.;Ziziphus;Rhamnaceae
+650;650;313;91;Cassipourea guianensis Aubl.;Cassipourea;Rhizophoraceae
+651;651;314;79;Syngonium podophyllum Schott;Syngonium;Araceae
+652;652;315;79;Urospatha sagittifolia (Rudge) Schott;Urospatha;Araceae
+653;653;316;92;Amaioua guianensis Aubl.;Amaioua;Rubiaceae
+654;654;317;92;Capirona decorticans Spruce;Capirona;Rubiaceae
+655;655;318;92;Carapichea ligularis (Rudge) Delprete;Carapichea;Rubiaceae
+656;656;319;92;Chimarrhis microcarpa Standl.;Chimarrhis;Rubiaceae
+657;657;319;92;Chimarrhis turbinata DC.;Chimarrhis;Rubiaceae
+658;658;320;92;Chiococca nitida Benth.;Chiococca;Rubiaceae
+659;659;321;92;Coussarea spicata Delprete;Coussarea;Rubiaceae
+660;660;322;92;Duroia aquatica (Aubl.) Bremek.;Duroia;Rubiaceae
+661;661;323;92;Faramea guianensis (Aubl.) Bremek.;Faramea;Rubiaceae
+662;662;324;92;Geophila repens (L.) I.M.Johnst.;Geophila;Rubiaceae
+663;663;325;92;Isertia spiciformis DC.;Isertia;Rubiaceae
+664;664;326;93;Hydrocotyle umbellata L.;Hydrocotyle;Araliaceae
+665;665;327;92;Kutchubaea insignis Fisch. ex DC.;Kutchubaea;Rubiaceae
+666;666;328;93;Oreopanax capitatus (Jacq.) Decne. & Planch.;Oreopanax;Araliaceae
+667;667;329;92;Mussaenda incana Wall.;Mussaenda;Rubiaceae
+668;668;330;92;Palicourea amapaensis Steyerm.;Palicourea;Rubiaceae
+669;669;330;92;Palicourea croceoides Ham.;Palicourea;Rubiaceae
+670;670;331;92;Posoqueria longiflora Aubl.;Posoqueria;Rubiaceae
+671;671;332;92;Psychotria ulviformis Steyerm.;Psychotria;Rubiaceae
+672;672;333;92;Randia armata (Sw.) DC.;Randia;Rubiaceae
+673;673;334;92;Rudgea bremekampiana Steyerm.;Rudgea;Rubiaceae
+674;674;335;92;Sabicea glabrescens Benth.;Sabicea;Rubiaceae
+675;675;335;92;Sabicea velutina Benth.;Sabicea;Rubiaceae
+676;676;336;92;Sipanea pratensis Aubl.;Sipanea;Rubiaceae
+677;677;337;93;Schefflera morototoni (Aubl.) Maguire, Steyerm. & Frodin;Schefflera;Araliaceae
+678;678;338;94;Ertela trifolia (L.) Kuntze;Ertela;Rutaceae
+679;679;339;94;Galipea trifoliata Aubl.;Galipea;Rutaceae
+680;680;340;94;Hortia excelsa Ducke;Hortia;Rutaceae
+681;681;341;94;Zanthoxylum amapaense (Albuq.) P.G.Waterman;Zanthoxylum;Rutaceae
+682;682;341;94;Zanthoxylum paulae (Albuq.) P.G. Waterman;Zanthoxylum;Rutaceae
+683;683;342;95;Saccoloma inaequale (Kunze) Mett.;Saccoloma;Saccolomataceae
+684;684;343;96;Banara guianensis Aubl.;Banara;Salicaceae
+685;685;344;96;Casearia acuminata DC.;Casearia;Salicaceae
+686;686;344;96;Casearia arborea (Rich.) Urb.;Casearia;Salicaceae
+687;687;344;96;Casearia combaymensis Tul.;Casearia;Salicaceae
+688;688;344;96;Casearia grandiflora Cambess.;Casearia;Salicaceae
+689;689;344;96;Casearia guianensis (Aubl.) Urb.;Casearia;Salicaceae
+690;690;345;96;Laetia procera (Poepp.) Eichler;Laetia;Salicaceae
+691;691;346;96;Ryania speciosa Vahl;Ryania;Salicaceae
+692;692;347;97;Salvinia auriculata Aubl.;Salvinia;Salviniaceae
+693;693;348;98;Phoradendron piperoides (Kunth) Trel.;Phoradendron;Santalaceae
+694;694;349;99;Astrocaryum murumuru Mart.;Astrocaryum;Arecaceae
+695;695;349;99;Astrocaryum paramaca Mart.;Astrocaryum;Arecaceae
+696;696;349;99;Astrocaryum sciophilum (Miq.) Pulle;Astrocaryum;Arecaceae
+697;697;349;99;Astrocaryum vulgare Mart.;Astrocaryum;Arecaceae
+698;698;350;100;Allophylus leucoclados Radlk.;Allophylus;Sapindaceae
+699;699;351;100;Cupania hirsuta Radlk.;Cupania;Sapindaceae
+700;700;351;100;Cupania rubiginosa (Poir.) Radlk.;Cupania;Sapindaceae
+701;701;351;100;Cupania scrobiculata Rich.;Cupania;Sapindaceae
+702;702;352;99;Attalea maripa (Aubl.) Mart.;Attalea;Arecaceae
+703;703;353;100;Dimocarpus longan Lour.;Dimocarpus;Sapindaceae
+704;704;354;99;Bactris acanthocarpoides Barb.Rodr.;Bactris;Arecaceae
+705;705;354;99;Bactris aubletiana Trail;Bactris;Arecaceae
+706;706;354;99;Bactris brongniartii Mart.;Bactris;Arecaceae
+707;707;354;99;Bactris constanciae Barb.Rodr.;Bactris;Arecaceae
+708;708;355;100;Matayba arborescens (Aubl.) Radlk.;Matayba;Sapindaceae
+709;709;355;100;Matayba laevigata Radlk.;Matayba;Sapindaceae
+710;710;355;100;Matayba stenodictya Radlk.;Matayba;Sapindaceae
+711;711;354;99;Bactris gastoniana Barb.Rodr.;Bactris;Arecaceae
+712;712;356;100;Paullinia pinnata L.;Paullinia;Sapindaceae
+713;713;354;99;Bactris maraja Mart.;Bactris;Arecaceae
+714;714;357;100;Pseudima frutescens (Aubl.) Radlk.;Pseudima;Sapindaceae
+715;715;354;99;Bactris oligocarpa Barb.Rodr.;Bactris;Arecaceae
+716;716;354;99;Bactris pliniana Granv. & A.J.Hend.;Bactris;Arecaceae
+717;717;354;99;Bactris rhaphidacantha Wess.Boer;Bactris;Arecaceae
+718;718;358;100;Serjania grandifolia Sagot ex Radlk.;Serjania;Sapindaceae
+719;719;354;99;Bactris simplicifrons Mart.;Bactris;Arecaceae
+720;720;358;100;Serjania paucidentata DC.;Serjania;Sapindaceae
+721;721;359;100;Talisia carinata Radlk.;Talisia;Sapindaceae
+722;722;359;100;Talisia hemidasya Radlk.;Talisia;Sapindaceae
+723;723;360;100;Toulicia guianensis Aubl.;Toulicia;Sapindaceae
+724;724;361;100;Vouarana guianensis Aubl.;Vouarana;Sapindaceae
+725;725;362;101;Chrysophyllum argenteum Jacq.;Chrysophyllum;Sapotaceae
+726;726;362;101;Chrysophyllum cainito L.;Chrysophyllum;Sapotaceae
+727;727;362;101;Chrysophyllum cuneifolium (Rudge) A.DC.;Chrysophyllum;Sapotaceae
+728;728;362;101;Chrysophyllum pomiferum (Eyma) T.D.Penn.;Chrysophyllum;Sapotaceae
+729;729;362;101;Chrysophyllum sanguinolentum (Pierre) Baehni;Chrysophyllum;Sapotaceae
+730;730;362;101;Chrysophyllum venezuelanense (Pierre) T.D.Penn.;Chrysophyllum;Sapotaceae
+731;731;363;101;Ecclinusa guianensis Eyma;Ecclinusa;Sapotaceae
+732;732;363;101;Ecclinusa ramiflora Mart.;Ecclinusa;Sapotaceae
+733;733;364;101;Manilkara bidentata (A.DC.) A.Chev.;Manilkara;Sapotaceae
+734;734;364;101;Manilkara paraensis (Huber) Standl.;Manilkara;Sapotaceae
+735;735;365;101;Micropholis cayennensis T.D.Penn.;Micropholis;Sapotaceae
+736;736;365;101;Micropholis guyanensis (A.DC.) Pierre;Micropholis;Sapotaceae
+737;737;365;101;Micropholis melinoniana Pierre;Micropholis;Sapotaceae
+738;738;365;101;Micropholis obscura T.D.Penn.;Micropholis;Sapotaceae
+739;739;366;101;Pouteria cicatricata T.D.Penn.;Pouteria;Sapotaceae
+740;740;366;101;Pouteria eugeniifolia (Pierre) Baehni;Pouteria;Sapotaceae
+741;741;366;101;Pouteria filipes Eyma;Pouteria;Sapotaceae
+742;742;366;101;Pouteria gongrijpii Eyma;Pouteria;Sapotaceae
+743;743;366;101;Pouteria macrophylla (Lam.) Eyma;Pouteria;Sapotaceae
+744;744;366;101;Pouteria rodriguesiana Pires & T.D.Penn.;Pouteria;Sapotaceae
+745;745;366;101;Pouteria sagotiana (Baill.) Eyma;Pouteria;Sapotaceae
+746;746;366;101;Pouteria speciosa (Ducke) Baehni;Pouteria;Sapotaceae
+747;747;366;101;Pouteria torta (Mart.) Radlk.;Pouteria;Sapotaceae
+748;748;366;101;Pouteria venosa (Mart.) Baehni;Pouteria;Sapotaceae
+749;749;367;101;Pradosia cochlearia (Lecomte) T.D.Penn.;Pradosia;Sapotaceae
+750;750;367;101;Pradosia ptychandra (Eyma) T.D.Penn.;Pradosia;Sapotaceae
+751;751;368;101;Sarcaulus brasiliensis (A.DC.) Eyma;Sarcaulus;Sapotaceae
+752;752;369;102;Schizaea elegans (Vahl) Sw.;Schizaea;Schizaeaceae
+753;753;370;103;Schlegelia violacea Griseb.;Schlegelia;Schlegeliaceae
+754;754;371;104;Selaginella conduplicata Spring;Selaginella;Selaginellaceae
+755;755;371;104;Selaginella parkeri (Hook. & Grev.) Spring;Selaginella;Selaginellaceae
+756;756;371;104;Selaginella producta Baker;Selaginella;Selaginellaceae
+757;757;371;104;Selaginella radiata Baker;Selaginella;Selaginellaceae
+758;758;371;104;Selaginella revoluta Baker;Selaginella;Selaginellaceae
+759;759;371;104;Selaginella sulcata (Desv. ex Poir.) Spring ex Mart.;Selaginella;Selaginellaceae
+760;760;372;105;Picrolemma sprucei Hook.f.;Picrolemma;Simaroubaceae
+761;761;373;105;Simaba polyphylla (Cavalcante) W.W. Thomas;Simaba;Simaroubaceae
+762;762;374;106;Siparuna cristata (Poepp. & Endl.) A.DC.;Siparuna;Siparunaceae
+763;763;374;106;Siparuna cuspidata (Tul.) A.DC.;Siparuna;Siparunaceae
+764;764;374;106;Siparuna decipiens (Tul.) A.DC.;Siparuna;Siparunaceae
+765;765;374;106;Siparuna guianensis Aubl.;Siparuna;Siparunaceae
+766;766;374;106;Siparuna poeppigii (Tul.) A. DC.;Siparuna;Siparunaceae
+767;767;375;107;Smilax siphilitica Humb. & Bonpl. ex Willd.;Smilax;Smilacaceae
+768;768;376;108;Brunfelsia guianensis Benth.;Brunfelsia;Solanaceae
+769;769;377;108;Cestrum latifolium Lam.;Cestrum;Solanaceae
+770;770;378;108;Lycianthes pauciflora (Vahl) Bitter;Lycianthes;Solanaceae
+771;771;379;108;Physalis angulata L.;Physalis;Solanaceae
+772;772;379;108;Physalis pubescens L.;Physalis;Solanaceae
+773;773;380;108;Schwenckia americana L.;Schwenckia;Solanaceae
+774;774;381;108;Solandra longiflora Tussac;Solandra;Solanaceae
+775;775;382;108;Solanum americanum Mill.;Solanum;Solanaceae
+776;776;382;108;Solanum asperum Rich.;Solanum;Solanaceae
+777;777;382;108;Solanum crinitum Lam.;Solanum;Solanaceae
+778;778;382;108;Solanum fulvidum Bitter;Solanum;Solanaceae
+779;779;382;108;Solanum jamaicense Mill.;Solanum;Solanaceae
+780;780;382;108;Solanum leucocarpon Dunal;Solanum;Solanaceae
+781;781;382;108;Solanum rugosum Dunal;Solanum;Solanaceae
+782;782;382;108;Solanum schlechtendalianum Walp.;Solanum;Solanaceae
+783;783;382;108;Solanum stramoniifolium Jacq.;Solanum;Solanaceae
+784;784;382;108;Solanum torvum Sw.;Solanum;Solanaceae
+785;785;382;108;Solanum velutinum Dunal;Solanum;Solanaceae
+786;786;383;109;Discophora guianensis Miers;Discophora;Stemonuraceae
+787;787;384;110;Styrax pallidus A.DC.;Styrax;Styracaceae
+788;788;385;111;Tectaria incisa Cav.;Tectaria;Tectariaceae
+789;789;385;111;Tectaria plantaginea (Jacq.) Maxon;Tectaria;Tectariaceae
+790;790;385;111;Tectaria trifoliata (L.) Cav.;Tectaria;Tectariaceae
+791;791;386;111;Triplophyllum funestum (Kunze) Holttum;Triplophyllum;Tectariaceae
+792;792;387;99;Desmoncus orthacanthos Mart.;Desmoncus;Arecaceae
+793;793;387;99;Desmoncus polyacanthos Mart.;Desmoncus;Arecaceae
+794;794;388;112;Thelypteris abrupta (Desv.) Proctor;Thelypteris;Thelypteridaceae
+795;795;388;112;Thelypteris decussata (L.) Proctor;Thelypteris;Thelypteridaceae
+796;796;388;112;Thelypteris glandulosa (Desv.) Proctor;Thelypteris;Thelypteridaceae
+797;797;388;112;Thelypteris serrata (Cav.) Alston;Thelypteris;Thelypteridaceae
+798;798;389;99;Euterpe oleracea Mart.;Euterpe;Arecaceae
+799;799;390;99;Geonoma baculifera (Poit.) Kunth;Geonoma;Arecaceae
+800;800;390;99;Geonoma deversa (Poit.) Kunth;Geonoma;Arecaceae
+801;801;391;113;Ampelocera edentula Kuhlm.;Ampelocera;Ulmaceae
+802;802;390;99;Geonoma maxima (Poit.) Kunth;Geonoma;Arecaceae
+803;803;392;114;Cecropia sciadophylla Mart.;Cecropia;Urticaceae
+804;804;390;99;Geonoma stricta (Poit.) Kunth;Geonoma;Arecaceae
+805;805;393;114;Coussapoa angustifolia Aubl.;Coussapoa;Urticaceae
+806;806;393;114;Coussapoa latifolia Aubl.;Coussapoa;Urticaceae
+807;807;394;114;Pilea imparifolia Wedd.;Pilea;Urticaceae
+808;808;395;99;Hyospathe elegans Mart.;Hyospathe;Arecaceae
+809;809;396;114;Pourouma bicolor Mart.;Pourouma;Urticaceae
+810;810;396;114;Pourouma guianensis Aubl.;Pourouma;Urticaceae
+811;811;396;114;Pourouma minor Benoist;Pourouma;Urticaceae
+812;812;396;114;Pourouma saulensis C.C. Berg & Kooy;Pourouma;Urticaceae
+813;813;396;114;Pourouma velutina Mart. ex Miq.;Pourouma;Urticaceae
+814;814;397;115;Duranta erecta L.;Duranta;Verbenaceae
+815;815;398;115;Lantana camara L.;Lantana;Verbenaceae
+816;816;399;115;Petrea bracteata Steud.;Petrea;Verbenaceae
+817;817;399;115;Petrea volubilis L.;Petrea;Verbenaceae
+818;818;400;115;Priva lappulacea (L.) Pers.;Priva;Verbenaceae
+819;819;401;115;Stachytarpheta cayennensis (Rich.) Vahl;Stachytarpheta;Verbenaceae
+820;820;401;115;Stachytarpheta jamaicensis (L.) Vahl;Stachytarpheta;Verbenaceae
+821;821;402;116;Paypayrola hulkiana Pulle;Paypayrola;Violaceae
+822;822;403;116;Rinorea amapensis Hekking;Rinorea;Violaceae
+823;823;403;116;Rinorea flavescens (Aubl.) Kuntze;Rinorea;Violaceae
+824;824;403;116;Rinorea guianensis Aubl.;Rinorea;Violaceae
+825;825;403;116;Rinorea pubiflora (Benth.) Sprague & Sandwith;Rinorea;Violaceae
+826;826;404;99;Mauritia flexuosa L.f.;Mauritia;Arecaceae
+827;827;405;117;Vochysia guianensis Aubl.;Vochysia;Vochysiaceae
+828;828;406;118;Alpinia galanga (L.) Willd.;Alpinia;Zingiberaceae
+829;829;407;118;Curcuma longa L.;Curcuma;Zingiberaceae
+830;830;408;118;Etlingera elatior (Jack) R.M.Sm.;Etlingera;Zingiberaceae
+831;831;409;118;Renealmia floribunda K.Schum.;Renealmia;Zingiberaceae
+832;832;409;118;Renealmia orinocensis Rusby;Renealmia;Zingiberaceae
+833;833;410;99;Socratea exorrhiza (Mart.) H.Wendl.;Socratea;Arecaceae
+834;834;411;99;Syagrus inajai (Spruce) Becc.;Syagrus;Arecaceae
+835;835;412;119;Aristolochia iquitensis O.C.Schmidt;Aristolochia;Aristolochiaceae
+836;836;413;58;Ruellia rubra Aubl.;Ruellia;Acanthaceae
+837;837;413;58;Ruellia tuberosa L.;Ruellia;Acanthaceae
+838;838;414;120;Asplenium abscissum Willd.;Asplenium;Aspleniaceae
+839;839;415;58;Asystasia gangetica (L.) T.Anderson;Asystasia;Acanthaceae
+840;840;414;120;Asplenium hostmannii Hieron.;Asplenium;Aspleniaceae
+841;841;414;120;Asplenium juglandifolium Lam.;Asplenium;Aspleniaceae
+842;842;414;120;Asplenium rutaceum (Willd.) Mett.;Asplenium;Aspleniaceae
+843;843;414;120;Asplenium serratum L.;Asplenium;Aspleniaceae
+844;844;416;121;Diplazium cristatum (Desr.) Alston;Diplazium;Athyriaceae
+845;845;416;121;Diplazium expansum Willd.;Diplazium;Athyriaceae
+846;846;416;121;Diplazium grandifolium (Sw.) Sw.;Diplazium;Athyriaceae
+847;847;417;122;Helosis cayennensis (Sw.) Spreng.;Helosis;Balanophoraceae
+848;848;418;123;Begonia glabra Aubl.;Begonia;Begoniaceae
+849;849;419;124;Adenocalymma moringifolium (DC.) L.G.Lohmann;Adenocalymma;Bignoniaceae
+850;850;419;124;Adenocalymma neoflavidum L.G.Lohmann;Adenocalymma;Bignoniaceae
+851;851;419;124;Adenocalymma racemosum (A.H.Gentry) L.G.Lohmann;Adenocalymma;Bignoniaceae
+852;852;420;124;Amphilophium elongatum (Vahl) L.G.Lohmann;Amphilophium;Bignoniaceae
+853;853;420;124;Amphilophium magnoliifolium (Kunth) L.G.Lohmann;Amphilophium;Bignoniaceae
+854;854;421;124;Bignonia aequinoctialis L.;Bignonia;Bignoniaceae
+855;855;421;124;Bignonia corymbosa (Vent.) L.G.Lohmann;Bignonia;Bignoniaceae
+856;856;422;124;Callichlamys latifolia (Rich.) K. Schum.;Callichlamys;Bignoniaceae
+857;857;423;124;Crescentia cujete L.;Crescentia;Bignoniaceae
+858;858;424;124;Cuspidaria inaequalis (DC. ex Splitg.) L.G.Lohmann;Cuspidaria;Bignoniaceae
+859;859;425;124;Dolichandra unguis-cati (L.) L.G.Lohmann;Dolichandra;Bignoniaceae
+860;860;426;124;Fridericia candicans (Rich.) L.G.Lohmann;Fridericia;Bignoniaceae
+861;861;426;124;Fridericia oligantha (Bureau & K.Schum.) L.G.Lohmann;Fridericia;Bignoniaceae
+862;862;427;124;Handroanthus serratifolius (Vahl) S.O.Grose;Handroanthus;Bignoniaceae
+863;863;428;124;Jacaranda copaia (Aubl.) D.Don;Jacaranda;Bignoniaceae
+864;864;429;124;Kigelia africana (Lam.) Benth.;Kigelia;Bignoniaceae
+865;865;430;124;Lundia corymbifera (Vahl) Sandwith;Lundia;Bignoniaceae
+866;866;431;124;Mansoa alliacea (Lam.) A.H.Gentry;Mansoa;Bignoniaceae
+867;867;431;124;Mansoa standleyi (Steyerm.) A.H.Gentry;Mansoa;Bignoniaceae
+868;868;432;124;Tabebuia insignis (Miq.) Sandwith;Tabebuia;Bignoniaceae
+869;869;433;124;Tanaecium pyramidatum (Rich.) L.G.Lohmann;Tanaecium;Bignoniaceae
+870;870;434;124;Tecoma capensis (Thunb.) Lindl.;Tecoma;Bignoniaceae
+871;871;435;125;Bixa orellana L.;Bixa;Bixaceae
+872;872;436;125;Cochlospermum orinocense (Kunth) Steud.;Cochlospermum;Bixaceae
+873;873;437;126;Blechnum serrulatum Rich.;Blechnum;Blechnaceae
+874;874;438;127;Lindackeria paludosa (Benth.) Gilg;Lindackeria;Achariaceae
+875;875;439;127;Mayna odorata Aubl.;Mayna;Achariaceae
+876;876;440;128;Cordia nodosa Lam.;Cordia;Boraginaceae
+877;877;441;129;Aechmea aquilega (Salisb.) Griseb.;Aechmea;Bromeliaceae
+878;878;441;129;Aechmea mertensii (G.Mey.) Schult. & Schult.f.;Aechmea;Bromeliaceae
+879;879;442;129;Araeococcus micranthus Brongn.;Araeococcus;Bromeliaceae
+880;880;443;129;Billbergia violacea Beer;Billbergia;Bromeliaceae
+881;881;444;129;Guzmania lingulata (L.) Mez;Guzmania;Bromeliaceae
+882;882;445;129;Tillandsia bulbosa Hook.;Tillandsia;Bromeliaceae
+883;883;445;129;Tillandsia monadelpha (E.Morren) Baker;Tillandsia;Bromeliaceae
+884;884;446;130;Burmannia bicolor Mart.;Burmannia;Burmanniaceae
+885;885;447;131;Protium apiculatum Swart;Protium;Burseraceae
+886;886;447;131;Protium decandrum (Aubl.) Marchand;Protium;Burseraceae
+887;887;447;131;Protium heptaphyllum (Aubl.) Marchand;Protium;Burseraceae
+888;888;447;131;Protium opacum Swart;Protium;Burseraceae
+889;889;447;131;Protium polybotryum (Turcz.) Engl.;Protium;Burseraceae
+890;890;447;131;Protium sagotianum Marchand;Protium;Burseraceae
+891;891;447;131;Protium subserratum (Engl.) Engl.;Protium;Burseraceae
+892;892;447;131;Protium tenuifolium (Engl.) Engl.;Protium;Burseraceae
+893;893;447;131;Protium trifoliolatum Engl.;Protium;Burseraceae
+894;894;448;131;Tetragastris altissima (Aubl.) Swart;Tetragastris;Burseraceae
+895;895;448;131;Tetragastris panamensis (Engl.) Kuntze;Tetragastris;Burseraceae
+896;896;449;132;Cabomba aquatica Aubl.;Cabomba;Cabombaceae
+897;897;450;133;Epiphyllum phyllanthus (L.) Haw.;Epiphyllum;Cactaceae
+898;898;451;133;Rhipsalis baccifera (J.S.Muell.) Stearn;Rhipsalis;Cactaceae
+899;899;452;134;Caraipa densifolia Mart.;Caraipa;Calophyllaceae
+900;900;453;134;Mahurea palustris Aubl.;Mahurea;Calophyllaceae
+901;901;454;134;Mammea americana L.;Mammea;Calophyllaceae
+902;902;455;135;Centropogon cornutus (L.) Druce;Centropogon;Campanulaceae
+903;903;456;136;Cinnamodendron tenuifolium Uittien;Cinnamodendron;Canellaceae
+904;904;457;137;Trema micrantha (L.) Blume;Trema;Cannabaceae
+905;905;458;138;Canna indica L.;Canna;Cannaceae
+906;906;459;139;Crateva tapia L.;Crateva;Capparaceae
+907;907;460;139;Cynophalla polyantha (Triana & Planch.) Cornejo & Iltis;Cynophalla;Capparaceae
+908;908;461;140;Dendrobangia boliviana Rusby;Dendrobangia;Cardiopteridaceae
+909;909;462;141;Carica papaya L.;Carica;Caricaceae
+910;910;463;142;Caryocar glabrum (Aubl.) Pers.;Caryocar;Caryocaraceae
+911;911;463;142;Caryocar microcarpum Ducke;Caryocar;Caryocaraceae
+912;912;463;142;Caryocar nuciferum L.;Caryocar;Caryocaraceae
+913;913;463;142;Caryocar villosum (Aubl.) Pers.;Caryocar;Caryocaraceae
+914;914;464;58;Barleria repens Nees;Barleria;Acanthaceae
+915;915;465;143;Cheiloclinium cognatum (Miers) A.C.Sm.;Cheiloclinium;Celastraceae
+916;916;466;143;Maytenus oblongata Reissek;Maytenus;Celastraceae
+917;917;467;144;Acioa guianensis Aubl.;Acioa;Chrysobalanaceae
+918;918;468;144;Chrysobalanus icaco L.;Chrysobalanus;Chrysobalanaceae
+919;919;469;144;Couepia bracteosa Benth.;Couepia;Chrysobalanaceae
+920;920;469;144;Couepia caryophylloides Benoist;Couepia;Chrysobalanaceae
+921;921;469;144;Couepia excelsa Ducke;Couepia;Chrysobalanaceae
+922;922;469;144;Couepia guianensis Aubl.;Couepia;Chrysobalanaceae
+923;923;469;144;Couepia joaquinae Prance;Couepia;Chrysobalanaceae
+924;924;469;144;Couepia parillo DC.;Couepia;Chrysobalanaceae
+925;925;470;144;Exellodendron barbatum (Ducke) Prance;Exellodendron;Chrysobalanaceae
+926;926;471;144;Hirtella bicornis Mart. & Zucc.;Hirtella;Chrysobalanaceae
+927;927;471;144;Hirtella davisii Sandwith;Hirtella;Chrysobalanaceae
+928;928;471;144;Hirtella glandulosa Spreng.;Hirtella;Chrysobalanaceae
+929;929;471;144;Hirtella hispidula Miq.;Hirtella;Chrysobalanaceae
+930;930;471;144;Hirtella margae Prance;Hirtella;Chrysobalanaceae
+931;931;471;144;Hirtella paniculata Sw.;Hirtella;Chrysobalanaceae
+932;932;471;144;Hirtella physophora Mart. & Zucc.;Hirtella;Chrysobalanaceae
+933;933;471;144;Hirtella racemosa Lam.;Hirtella;Chrysobalanaceae
+934;934;471;144;Hirtella tenuifolia Prance;Hirtella;Chrysobalanaceae
+935;935;472;144;Licania alba (Bernoulli) Cuatrec.;Licania;Chrysobalanaceae
+936;936;472;144;Licania amapaensis Prance;Licania;Chrysobalanaceae
+937;937;472;144;Licania canescens Benoist;Licania;Chrysobalanaceae
+938;938;472;144;Licania granvillei Prance;Licania;Chrysobalanaceae
+939;939;472;144;Licania guianensis (Aubl.) Griseb.;Licania;Chrysobalanaceae
+940;940;472;144;Licania heteromorpha Benth.;Licania;Chrysobalanaceae
+941;941;472;144;Licania kunthiana Hook.f.;Licania;Chrysobalanaceae
+942;942;472;144;Licania latistipula Prance;Licania;Chrysobalanaceae
+943;943;472;144;Licania leptostachya Benth.;Licania;Chrysobalanaceae
+944;944;472;144;Licania majuscula Sagot;Licania;Chrysobalanaceae
+945;945;472;144;Licania membranacea Sagot ex Laness.;Licania;Chrysobalanaceae
+946;946;472;144;Licania micrantha Miq.;Licania;Chrysobalanaceae
+947;947;472;144;Licania minutiflora (Sagot) Fritsch;Licania;Chrysobalanaceae
+948;948;473;144;Parinari campestris Aubl.;Parinari;Chrysobalanaceae
+949;949;473;144;Parinari excelsa Sabine;Parinari;Chrysobalanaceae
+950;950;474;145;Cleome rutidosperma DC.;Cleome;Cleomaceae
+951;951;475;146;Calophyllum brasiliense Cambess.;Calophyllum;Clusiaceae
+952;952;476;146;Clusia flavida (Benth.) Pipoly;Clusia;Clusiaceae
+953;953;476;146;Clusia fockeana Miq.;Clusia;Clusiaceae
+954;954;476;146;Clusia grandiflora Splitg.;Clusia;Clusiaceae
+955;955;476;146;Clusia nemorosa G.Mey.;Clusia;Clusiaceae
+956;956;476;146;Clusia panapanari (Aubl.) Choisy;Clusia;Clusiaceae
+957;957;476;146;Clusia purpurea (Splitg.) Engl.;Clusia;Clusiaceae
+958;958;476;146;Clusia scrobiculata Benoist;Clusia;Clusiaceae
+959;959;477;146;Garcinia benthamiana (Planch. & Triana) Pipoly;Garcinia;Clusiaceae
+960;960;477;146;Garcinia macrophylla Mart.;Garcinia;Clusiaceae
+961;961;477;146;Garcinia madruno (Kunth) Hammel;Garcinia;Clusiaceae
+962;962;478;146;Moronobea coccinea Aubl.;Moronobea;Clusiaceae
+963;963;479;146;Platonia insignis Mart.;Platonia;Clusiaceae
+964;964;480;146;Symphonia globulifera L.f.;Symphonia;Clusiaceae
+965;965;481;146;Tovomita longifolia (Rich.) Hochr.;Tovomita;Clusiaceae
+966;966;481;146;Tovomita schomburgkii Planch. & Triana;Tovomita;Clusiaceae
+967;967;481;146;Tovomita umbellata Benth.;Tovomita;Clusiaceae
+968;968;482;147;Sesuvium portulacastrum (L.) L.;Sesuvium;Aizoaceae
+969;969;483;148;Combretum indicum (L.) DeFilipps;Combretum;Combretaceae
+970;970;483;148;Combretum rotundifolium Rich.;Combretum;Combretaceae
+971;971;484;148;Conocarpus erectus L.;Conocarpus;Combretaceae
+972;972;485;148;Terminalia amazonia (J.F.Gmel.) Exell;Terminalia;Combretaceae
+973;973;486;149;Commelina erecta L.;Commelina;Commelinaceae
+974;974;486;149;Commelina rufipes Seub.;Commelina;Commelinaceae
+975;975;487;149;Dichorisandra hexandra (Aubl.) Standl.;Dichorisandra;Commelinaceae
+976;976;488;149;Floscopa peruviana Hassk. ex C.B.Clarke;Floscopa;Commelinaceae
+977;977;489;0;Ayapana amygdalina (Lam.) R.M.King & H.Rob.;Ayapana;Compositae
+978;978;490;0;Bidens cynapiifolia Kunth;Bidens;Compositae
+979;979;491;0;Centratherum punctatum Cass.;Centratherum;Compositae
+980;980;492;150;Alternanthera brasiliana (L.) Kuntze;Alternanthera;Amaranthaceae
+981;981;493;0;Chromolaena odorata (L.) R.M.King & H.Rob.;Chromolaena;Compositae
+982;982;494;0;Clibadium surinamense L.;Clibadium;Compositae
+983;983;492;150;Alternanthera sessilis (L.) R.Br. ex DC.;Alternanthera;Amaranthaceae
+984;984;495;0;Cyanthillium cinereum (L.) H.Rob.;Cyanthillium;Compositae
+985;985;496;0;Eclipta prostrata (L.) L.;Eclipta;Compositae
+986;986;497;0;Elephantopus mollis Kunth;Elephantopus;Compositae
+987;987;498;0;Emilia fosbergii Nicolson;Emilia;Compositae
+988;988;499;0;Erechtites hieraciifolius (L.) Raf. ex DC.;Erechtites;Compositae
+989;989;500;150;Cyathula prostrata (L.) Blume;Cyathula;Amaranthaceae
+990;990;501;0;Ichthyothere terminalis (Spreng.) S.F.Blake;Ichthyothere;Compositae
+991;991;502;0;Mikania micrantha Kunth;Mikania;Compositae
+992;992;503;0;Piptocarpha triflora (Aubl.) Benn. ex Baker;Piptocarpha;Compositae
+993;993;504;0;Rolandra fruticosa (L.) Kuntze;Rolandra;Compositae
+994;994;505;0;Sphagneticola trilobata (L.) Pruski;Sphagneticola;Compositae
+995;995;506;0;Struchium sparganophorum (L.) Kuntze;Struchium;Compositae
+996;996;507;0;Synedrella nodiflora (L.) Gaertn.;Synedrella;Compositae

@@ -1,0 +1,62 @@
+<style type="text/css">
+ .highlighted {
+  background-color: #FFFFFF;
+ } 
+
+</style>
+
+<div class="hero-head is-family-primary">    
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+      <div class="container"> 
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            {% load static %}        
+            <img src="{% static 'images/herbaLook_grey.png' %}" style="max-height:50px">
+          </a>           
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarLinks">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarLinks" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item {% if request.path == '/' %} highlighted {% endif %}" href="{% url 'index' %}">
+              Home
+            </a> 
+            <a class="navbar-item {% if request.path == '/about/' %} highlighted {% endif %}" href="{% url 'about' %}">
+              About
+            </a>                        
+            <a class="navbar-item {% if request.path == '/gallery/' %} highlighted {% endif %}" href="{% url 'gallery' %}">
+              Gallery
+            </a>
+            <a class="navbar-item {% if request.path == '/dataset_info/' %} highlighted {% endif %}" href="{% url 'dataset_info' %}">
+              Dataset
+            </a>                         
+            <a class="navbar-item" href="https://github.com/sophiadouglas/herbaLook" id="menu-github">
+              <i class="fa-brands fa-github fa-lg"></i>
+            </a>            
+          </div>
+        </div>
+
+      </div>
+  </nav>  
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var burger = document.querySelector(".navbar-burger");
+    var navbarLinks = document.getElementById("navbarLinks");
+
+    burger.addEventListener("click", function () {
+      burger.classList.toggle("is-active");
+      navbarLinks.classList.toggle("is-active");
+    });
+  });
+</script>
+
+

@@ -1,0 +1,254 @@
+{% extends "layout.html"%}
+{% block content %}
+
+<style>
+.card {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Initial shadow */
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  cursor: pointer;
+}
+
+.pagination-link.is-active {
+  background-color: #00d1b2; 
+  color: #fff;               
+}
+
+.pagination-link:hover {
+  cursor: pointer;              
+}
+</style>
+
+<section class="hero is-fullheight">
+
+  <div class="hero-body">
+      
+      <div class="container">
+        <h1 class="title">Gallery</h1><br>
+        
+        <nav class="level is-mobile">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">151</p>              
+              <p class="heading">Family</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">509</p>
+              <p class="heading">Genus</p>              
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">997</p>              
+              <p class="heading">Species</p>
+            </div>
+          </div>
+        </nav>
+
+        <form method="POST" id="search-form">
+          {% csrf_token %}
+          <div class="field has-addons pb-5">          
+            <div class="control is-expanded">
+              <input class="input is-primary" type="text" placeholder="Find a species, genus, or family" id="search-input">
+            </div>
+            <div class="control">
+              <button class="button is-primary" type="submit" id="search-button">Search</button>
+            </div>
+            <div class="control">
+              <button class="button is-light" type="submit" id="clear-button">Reset</button>
+            </div>            
+          </div>
+        </form>
+
+
+
+        <div class="columns is-multiline" id="search-results">
+
+          <div id="loadingDiv">
+            <h1 class="title is-6">Loading...</h1>
+          </div>
+        </div>
+
+        
+
+        <div id="no_results" style="display: none;">
+          <h1 class="title is-6">No results found...</h1>
+          <div style="text-align:center;">
+            {% load static %}
+            <img src="{% static 'images/undraw_Searching_re_3ra9.png' %}" style="max-height:400px;"/>
+          </div> 
+        </div>
+
+        <div id="paginationContainer"></div>
+
+
+
+
+    </div>
+
+  </section>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+var cardsPerPage = 30;
+let currentPage = 1;
+var data;
+
+$(document).ready(function() {
+  // Initial render
+  fetchDataAndRender($('#search-input').val());
+
+  $('#search-form').on('submit', function(event) {
+    event.preventDefault();
+    const searchTerm = $('#search-input').val();
+    resetPagination(); // Reset pagination to page 1
+    fetchDataAndRender(searchTerm);
+  });
+
+  $('#search-input').on('keyup', function(event) {
+    if (event.keyCode === 13) {
+      $('#search-form').submit();
+    }
+  });
+
+  var clearButton = document.getElementById('clear-button');
+  // Add a click event listener to the clear button
+  clearButton.addEventListener('click', function () {
+    const searchTerm = '';
+    document.getElementById('search-input').value = "";
+    resetPagination(); // Reset pagination to page 1
+    fetchDataAndRender(searchTerm);
+  });
+
+});
+
+function fetchDataAndRender(searchTerm) {
+  $.ajax({
+    type: 'GET',
+    url: "{% url 'gallery' %}",
+    data: {
+      'search_term': searchTerm,
+    },
+    success: function(responseData) {
+      data = responseData;
+      handleInitialLoad();
+    }
+  });
+}
+
+function handleInitialLoad() {
+  handlePageClick(currentPage);
+  const pagesToRender = Math.ceil(data['folder_names'].length / cardsPerPage);
+  renderPagination(pagesToRender);
+}
+
+function renderCards(data) {
+  // Update the page with the search results received from the server
+  const container = document.getElementById('search-results');
+  container.innerHTML = ''; // Clear the existing content
+
+  // Update the page with the new data...
+  var numElements = data['folder_names'].length;
+  for (var i = 0; i < numElements; i++) {
+      const folder_name = data['folder_names'][i];
+      const species = data['folder_species_list'][i];
+      const image_path = data['folder_images_list'][i];
+      const genus = data['folder_genus_list'][i];
+      const family = data['folder_family_list'][i];
+      
+      const cardLink = document.createElement('a');
+      cardLink.href =  "/species/" + folder_name;
+      const column = document.createElement('div');
+      column.className = 'column is-one-fifth';
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+            <div class="card-image">
+                <figure class="image is-2by3">
+                    <img src="${image_path}">
+                </figure>
+            </div>
+            <div class="card-content">
+                <p class="title is-5">${species}</p>
+                <p class="title is-6">${family}</p>
+                <p class="subtitle is-6">${genus}</p>
+            </div>
+
+      `;
+
+      cardLink.appendChild(card)
+      column.appendChild(cardLink)
+      container.appendChild(column)
+      
+  };
+
+  if (numElements === 0) {
+    document.getElementById("no_results").style.display = "block";
+  }
+  else {
+    document.getElementById("no_results").style.display = "none";
+  }
+}
+
+function renderPagination(totalPages) {
+  const paginationContainer = document.getElementById('paginationContainer');
+  paginationContainer.innerHTML = '';
+
+  for (let page = 1; page <= totalPages; page++) {
+    const pageButton = document.createElement('button');
+    pageButton.textContent = page;
+    pageButton.className = "pagination-link mb-2";
+    pageButton.addEventListener('click', () => handlePageClick(page));
+
+    if (page === currentPage) {
+      pageButton.classList.add("is-active");
+    }
+
+    paginationContainer.appendChild(pageButton);
+  }
+}
+
+function handlePageClick(page) {
+  currentPage = page;
+  const startIndex = (currentPage - 1) * cardsPerPage;
+  const endIndex = startIndex + cardsPerPage;
+
+  const currentData = {
+    'folder_names': data['folder_names'].slice(startIndex, endIndex),
+    'folder_species_list': data['folder_species_list'].slice(startIndex, endIndex),
+    'folder_images_list': data['folder_images_list'].slice(startIndex, endIndex),
+    'folder_genus_list': data['folder_genus_list'].slice(startIndex, endIndex),
+    'folder_family_list': data['folder_family_list'].slice(startIndex, endIndex),
+  };
+
+  renderCards(currentData);
+  updatePaginationButtons();
+}
+
+function updatePaginationButtons() {
+  const paginationButtons = document.querySelectorAll('.pagination-link');
+
+  paginationButtons.forEach((button, index) => {
+    const page = index + 1;
+
+    if (page === currentPage) {
+      button.classList.add("is-active");
+    } else {
+      button.classList.remove("is-active");
+    }
+  });
+}
+
+
+function resetPagination() {
+  currentPage = 1;
+}
+
+</script>
+{% endblock %}
