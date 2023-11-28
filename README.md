@@ -20,7 +20,7 @@ for my Master Research Degree. More info about the work can be found [here](http
 [https://herbalook.neuon-kuching.com/](https://herbalook.neuon-kuching.com/)
 
 ## Usage
-- Upload a plant image (either herbarium or field domain) and get up to Top-50 prediction results from 997 plant species.
+- Upload a plant image (field domain) and get up to Top-50 prediction results from 997 plant species
 - View the similarity scores between the uploaded image and the herbarium dictionary (dataset/herbaria collection)
   *note that classifications by HFTL models are based on similarity scores instead of probabilities*
 - Analyze the HFTL model's prediction through the Class Activation Map visualizations
