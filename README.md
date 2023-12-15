@@ -35,7 +35,7 @@ This application uses the dataset (herbarium and field images) from [PlantCLEF 2
 
 Cross-domain plant classification remains [a challenging task](https://ceur-ws.org/Vol-2936/paper-122.pdf) and still requires further research as its prediction accuracies are significantly lower than 
 conventional automated plant classification. Nevertheless, the HFTL approach offers a step in alleviating the challenging task of automated 
-plant identification with few field image samples, specifically rare species, which require high-level expertise. More research is welcomed and anticipated for the plant biodiversity community in the times ahead.
+plant identification with few field image samples, specifically rare species, which require high-level expertise. More research is welcomed and anticipated for the plant biodiversity community.
 
 
 ## herbaLook Installation (Local)
@@ -45,7 +45,7 @@ Windows
 3. Activate the virtual environment
 4. Install the dependencies
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 5. Download this repository
 6. Download the prediction model + dictionary (model.zip), and database images (images.zip) [here](https://drive.google.com/drive/folders/1cUxrPgfq9XIM67XgZ0FJ1t-7ovVFzCi8?usp=drive_link)
